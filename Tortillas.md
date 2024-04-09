@@ -26,8 +26,17 @@ With the transformed and cleaned data, I aggregated the results and visualized t
 ![image](https://github.com/benvdm03/Infinity/assets/161901352/7fc91050-d7e3-4809-b3ac-b74da97d23c6)
 
 4. Correlation Analysis:
-   FIND OUT HOW TO ADD CODE SNIPPET
 Subsequently, I conducted a correlation analysis to quantitatively assess the relationships between oil exports, arms imports, and tortilla prices. While correlations were observed, they were relatively weak, suggesting complex dynamics at play. However, while there was a weak relationship, it was logical to believe that a increase in oil exports and a decrease in arms exports would lead to a rise in Tortilla prices.
+
+```Python
+// Python code with syntax higlighting
+corr_mom_pop_oil = aggregated_results['Oil Exported by Year (Mexico) Percentage Change'].corr(aggregated_results['Avg Tortilla Price Change (Mom and Pop)'])
+corr_big_retail_oil = aggregated_results['Oil Exported by Year (Mexico) Percentage Change'].corr(aggregated_results['Avg Tortilla Price Change (Big Retail)'])
+corr_mom_pop_arms = aggregated_results['Arms Imports Mexico Percentage Change'].corr(aggregated_results['Avg Tortilla Price Change (Mom and Pop)'])
+corr_big_retail_arms = aggregated_results['Arms Imports Mexico Percentage Change'].corr(aggregated_results['Avg Tortilla Price Change (Big Retail)'])
+;
+}
+```
 
 Correlation between oil exports and average tortilla price change (Mom and Pop): 0.4941951938027625
 Correlation between oil exports and average tortilla price change (Big Retail): 0.20242394452425463
