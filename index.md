@@ -33,7 +33,7 @@ Projects that focus on automating repetitive tasks and streamlining processes th
 3.  This is an ordered list following a header.
 
 <div style="display: flex;">
-    <img src="https://github.com/benvdm03/Infinity/assets/161901352/6fb645ce-774c-4a8e-a4a2-8db5e7c3ef8f" alt="Image 1" style="width: 50%;">
+    <img src="https://github.com/benvdm03/Infinity/assets/161901352/a33898e2-cb6f-4bdc-bad0-ebc26c6ebc05" alt="Image 1" style="width: 50%;">
     <img src="https://github.com/benvdm03/Infinity/assets/161901352/31156835-984d-43f1-b58d-4d5b689026c2" alt="Image 2" style="width: 50%;">
 </div>
 
