@@ -18,20 +18,7 @@ Projects that focus on ensuring the security and reliability of network infrastr
 
 Projects that focus on automating repetitive tasks and streamlining processes through scripting and automation techniques. They showcase the ability to write scripts in languages like Python or PowerShell to automate system administration tasks, deploy software, or perform data processing operations. These projects demonstrate efficiency, accuracy, and innovation in optimizing workflows through automation.
 
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
 
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
 
 #### Relevant Certifications & Experience 
 
@@ -45,6 +32,8 @@ end
 2.  This is an ordered list following a header.
 3.  This is an ordered list following a header.
 
+![image](https://github.com/benvdm03/Infinity/assets/161901352/6fb645ce-774c-4a8e-a4a2-8db5e7c3ef8f)
+![image](https://github.com/benvdm03/Infinity/assets/161901352/31156835-984d-43f1-b58d-4d5b689026c2)
 
 * * *
 
