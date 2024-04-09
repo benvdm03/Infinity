@@ -1,20 +1,22 @@
 
 
-# Data Analytics 
+# Data Analyzation and Visualization 
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+Projects that focus on analyzing datasets to extract valuable insights and trends, visualized through charts, graphs, and interactive dashboards. They showcase proficiency in data manipulation, statistical analysis, and the ability to communicate complex information effectively using visual representations.
 
 Project #1: Mexican Tortilla Price Inflation (2007 - 2020)
 [Link to another page](./another-page.html).
 
 
-## Cloud Computing 
+# Network Security and Infrastructure 
 
-> This is a blockquote following a header.
+Projects that focus on ensuring the security and reliability of network infrastructure. They include tasks such as configuring firewalls, implementing encryption protocols, and monitoring network traffic for potential threats. These projects demonstrate expertise in network architecture, cybersecurity protocols, and proactive threat mitigation strategies.
 >
 > When something is important enough, you do it even if the odds are not in your favor.
 
-### Cyber Security 
+# Automation and Scripting 
+
+Projects that focus on automating repetitive tasks and streamlining processes through scripting and automation techniques. They showcase the ability to write scripts in languages like Python or PowerShell to automate system administration tasks, deploy software, or perform data processing operations. These projects demonstrate efficiency, accuracy, and innovation in optimizing workflows through automation.
 
 ```js
 // Javascript code with syntax highlighting.
@@ -31,11 +33,11 @@ GitHubPages::Dependencies.gems.each do |gem, version|
 end
 ```
 
-#### Key Insights 
+#### Relevant Certifications & Experience 
 
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
+*   AWS Certified Cloud Practitioner 
+*   Microsoft Certified: AZ-900 Azure Fundamentals 
+*   Deloitte Information Technology Analyst 08.01.2022 - Present
 
 ##### Future Projects 
 
