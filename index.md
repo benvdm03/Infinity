@@ -6,7 +6,9 @@ Projects that focus on analyzing datasets to extract valuable insights and trend
 
 **Project #1:** Mexican Tortilla Price Inflation (2007 - 2020)
 [Tortillas](./Tortillas.html).
-**Project #2: ** How Fast Can a Human Being Run 1500m? 
+
+**Project #2:** How Fast Can a Human Being Run 1500m? 
+[Speed](./Speed.html).
 
 # Network Security and Infrastructure 
 
