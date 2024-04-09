@@ -4,9 +4,9 @@
 
 Projects that focus on analyzing datasets to extract valuable insights and trends, visualized through charts, graphs, and interactive dashboards. They showcase proficiency in data manipulation, statistical analysis, and the ability to communicate complex information effectively using visual representations.
 
-Project #1: Mexican Tortilla Price Inflation (2007 - 2020)
+**Project #1:** Mexican Tortilla Price Inflation (2007 - 2020)
 [Tortillas](./Tortillas.html).
-
+**Project #2: ** How Fast Can a Human Being Run 1500m? 
 
 # Network Security and Infrastructure 
 
