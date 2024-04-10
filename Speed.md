@@ -23,6 +23,25 @@ The linear regression model (1500m WR = 243 -0.335*YEAR (since 1896)) provided i
 **3. Logarithmic Transformation and Analysis:**
 I then decided to apply a logarithmic transformation to my data, where (Logarithmic Transformation: Time = 311.227  - 30.07log(DATE)) When evaluating predictions for 2021 and 2030, the results were roughly 211 seconds for both results. However, since the current world record is 207 seconds, these results were not useful for future prediction. Overall, it is clear to see that inputting the times every year as the current world record, rather than just the fastest time in that year, will be a more accurate model.
 
+```R
+// R Code with syntax highlighting.
+years <- c(1896:2030)  # Assuming years range from 1896 to 2030
+world_record_times <- c(243 - 0.335 * (years - 1896))  # Assuming linear regression model for world record times
+
+log_transform <- function(x) {
+  result <- 311.227 - 9.217 * log(x)
+  return(result)
+}
+
+world_record_times_transformed <- log_transform(world_record_times)
+
+plot(years, world_record_times_transformed, type = "l", col = "blue", xlab = "Year", ylab = "Log-Transformed World Record Time",
+     main = "Logarithmic Transformation of 1500m World Record Times")
+}
+```
+
+
+
 ![Logarithmic](https://drive.google.com/thumbnail?id=1y5CDpQ3lej5y3N-HtnIqWAkM9MRJMQkv&sz=w1000)
 
 **4. Quadratic Regression:**
