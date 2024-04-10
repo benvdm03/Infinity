@@ -40,6 +40,11 @@ Projects that focus on automating repetitive tasks and streamlining processes th
 3.  Create VPN Server using open-source sofrware such as OpenVPN or WireGuard and implement Two-Factor Authentication (2FA). 
 
 
+<div style="display: flex; justify-content: center;">
+    <img src="https://drive.google.com/uc?id=1WwA7XMLbNuTByk92vqHX3NZJDBKEld5T" alt="Image 1 Description" style="width: 45%; margin-right: 5px;">
+    <img src="https://drive.google.com/uc?id=14y-j9hI_v05MPj8c3WR5eQLTCliAZoC-" alt="Image 2 Description" style="width: 45%; margin-left: 5px;">
+</div>
+
 * * *
 
 ### Resources
