@@ -17,12 +17,12 @@ Projects that focus on analyzing datasets to extract valuable insights and trend
 
 # Network Security and Infrastructure 
 
-Projects that focus on ensuring the security and reliability of network infrastructure. They include tasks such as configuring firewalls, implementing encryption protocols, and monitoring network traffic for potential threats. These projects demonstrate expertise in network architecture, cybersecurity protocols, and proactive threat mitigation strategies.
+Projects that focus on ensuring the security and reliability of network infrastructure. They include tasks such as configuring firewalls, implementing encryption protocols, and monitoring network traffic for potential threats. These projects demonstrate expertise in network architecture, cybersecurity protocols, and proactive threat mitigation strategies. (Projects Still Being Inputted)
 
 
 # Automation and Scripting 
 
-Projects that focus on automating repetitive tasks and streamlining processes through scripting and automation techniques. They showcase the ability to write scripts in languages like Python or PowerShell to automate system administration tasks, deploy software, or perform data processing operations. These projects demonstrate efficiency, accuracy, and innovation in optimizing workflows through automation.
+Projects that focus on automating repetitive tasks and streamlining processes through scripting and automation techniques. They showcase the ability to write scripts in languages like Python or PowerShell to automate system administration tasks, deploy software, or perform data processing operations. These projects demonstrate efficiency, accuracy, and innovation in optimizing workflows through automation. (Projects Still Being Inputted)
 
 
 
