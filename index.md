@@ -39,7 +39,6 @@ Projects that focus on automating repetitive tasks and streamlining processes th
 2.  Develop a Continuous Integration/Continuous Deployment (CI/CD) Pipeline using GitLab CI/CD to build, test, and deploy processes for software applications. 
 3.  Create VPN Server using open-source sofrware such as OpenVPN or WireGuard and implement Two-Factor Authentication (2FA). 
 
-
 * * *
 
 ### Resources
@@ -48,7 +47,7 @@ Projects that focus on automating repetitive tasks and streamlining processes th
 *   <a href="https://chat.openai.com/" target="_blank">OpenAI ChatGPT</a>
 *   <a href="https://www.reddit.com/" target="_blank">Reddit</a>
 
-![Image Description](https://drive.google.com/uc?id=14y-j9hI_v05MPj8c3WR5eQLTCliAZoC-)
+![Image Description](https://drive.google.com/thumbnail?id=14y-j9hI_v05MPj8c3WR5eQLTCliAZoC-)
 
 
 
