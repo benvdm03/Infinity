@@ -24,14 +24,15 @@ Projects that focus on automating repetitive tasks and streamlining processes th
 #### Relevant Certifications & Experience 
 
 *   AWS Certified Cloud Practitioner 
-*   Microsoft Certified: AZ-900 Azure Fundamentals 
+*   Microsoft Certified: AZ-900 Azure Fundamentals
+*   Google Cloud digital Leader Certification [Pending 5/2/2/2024 Exam]
 *   Deloitte Information Technology Analyst 08.01.2022 - Present
 
 ##### Future Projects 
 
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
+1.  Develop a tool that utilizes threat intelligence APIs such as VirusTotal or IBM X-Force to gather information about known threats and indicators of compromise (IOCs).
+2.  Develop a Continuous Integration/Continuous Deployment (CI/CD) Pipeline using GitLab CI/CD to build, test, and deploy processes for software applications. 
+3.  Create VPN Server using open-source sofrware such as OpenVPN or WireGuard and implement Two-Factor Authentication (2FA). 
 
 <div style="display: flex;">
     <img src="https://github.com/benvdm03/Infinity/assets/161901352/a33898e2-cb6f-4bdc-bad0-ebc26c6ebc05" alt="Image 1" style="width: 50%;">
