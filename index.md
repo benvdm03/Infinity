@@ -1,5 +1,5 @@
 
-<div style="display: flex;">
+<div style="display: flex; justify-content: center;">
     <img src="https://github.com/benvdm03/Infinity/assets/161901352/a33898e2-cb6f-4bdc-bad0-ebc26c6ebc05" alt="Image 1" style="width: 30%;">
     <img src="https://github.com/benvdm03/Infinity/assets/161901352/31156835-984d-43f1-b58d-4d5b689026c2" alt="Image 2" style="width: 30%;">
 </div>
