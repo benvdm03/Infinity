@@ -48,8 +48,6 @@ Projects that focus on automating repetitive tasks and streamlining processes th
 *   <a href="https://chat.openai.com/" target="_blank">OpenAI ChatGPT</a>
 *   <a href="https://www.reddit.com/" target="_blank">Reddit</a>
 
-![Image Description](https://drive.google.com/uc?id=1WwA7XMLbNuTByk92vqHX3NZJDBKEld5T)
-
 ![Image Description](https://drive.google.com/uc?id=14y-j9hI_v05MPj8c3WR5eQLTCliAZoC-)
 
 
