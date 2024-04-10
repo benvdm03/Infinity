@@ -1,4 +1,9 @@
 
+<div style="display: flex;">
+    <img src="https://github.com/benvdm03/Infinity/assets/161901352/a33898e2-cb6f-4bdc-bad0-ebc26c6ebc05" alt="Image 1" style="width: 30%;">
+    <img src="https://github.com/benvdm03/Infinity/assets/161901352/31156835-984d-43f1-b58d-4d5b689026c2" alt="Image 2" style="width: 30%;">
+</div>
+
 
 # Data Analyzation and Visualization 
 
@@ -34,10 +39,6 @@ Projects that focus on automating repetitive tasks and streamlining processes th
 2.  Develop a Continuous Integration/Continuous Deployment (CI/CD) Pipeline using GitLab CI/CD to build, test, and deploy processes for software applications. 
 3.  Create VPN Server using open-source sofrware such as OpenVPN or WireGuard and implement Two-Factor Authentication (2FA). 
 
-<div style="display: flex;">
-    <img src="https://github.com/benvdm03/Infinity/assets/161901352/a33898e2-cb6f-4bdc-bad0-ebc26c6ebc05" alt="Image 1" style="width: 50%;">
-    <img src="https://github.com/benvdm03/Infinity/assets/161901352/31156835-984d-43f1-b58d-4d5b689026c2" alt="Image 2" style="width: 50%;">
-</div>
 
 * * *
 
