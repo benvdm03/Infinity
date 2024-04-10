@@ -42,10 +42,10 @@ Projects that focus on automating repetitive tasks and streamlining processes th
 
 ### Resources
 
-*   [Kaggle](https://www.kaggle.com/)
 *   <a href="https://www.kaggle.com/" target="_blank">Kaggle</a>
-*   Item baz
-*   Item zip
+*   <a href="https://chat.openai.com/" target="_blank">OpenAI ChatGPT</a>
+*   <a href="https://www.reddit.com/" target="_blank">Reddit</a>
+
 
 
 
