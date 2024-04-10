@@ -43,7 +43,7 @@ Projects that focus on automating repetitive tasks and streamlining processes th
 ### Resources
 
 *   [Kaggle](https://www.kaggle.com/)
-*   Item bar
+*   <a href="https://www.kaggle.com/" target="_blank">Kaggle</a>
 *   Item baz
 *   Item zip
 
