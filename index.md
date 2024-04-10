@@ -49,5 +49,8 @@ Projects that focus on automating repetitive tasks and streamlining processes th
 
 ![Image Description](https://drive.google.com/thumbnail?id=14y-j9hI_v05MPj8c3WR5eQLTCliAZoC-)
 
+<div style="text-align:center;">
+  <img src="https://drive.google.com/thumbnail?id=14y-j9hI_v05MPj8c3WR5eQLTCliAZoC-" alt="Friends" style="width: 50%;">
+</div>
 
 
