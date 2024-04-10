@@ -13,9 +13,7 @@ As a Runner, it interests me that some records appear to stand the test of time.
 **1. Data Collection and Cleaning:**
 I collected data spanning years since 1896, with each year being captured as a new world record time was set. I employed a linear regression model initially, yielding a high R-squared value of 94.3%.
 
-![Linear Regression](https://drive.google.com/uc?id=1xmJboM9wbZBepgeWAxMoIb2k1V7VhymZ)
-
-![Linear Regression](<a href="https://drive.google.com/uc?export=view&id=(https://drive.google.com/uc?id=1xmJboM9wbZBepgeWAxMoIb2k1V7VhymZ)"><img src="https://drive.google.com/uc?export=view&id=https://drive.google.com/uc?id=1xmJboM9wbZBepgeWAxMoIb2k1V7VhymZ" style="width: 500px; max-width: 100%; height: auto" title="Click for the larger version." /></a>)
+![Linear Regression](https://drive.google.com/uc?export=view&id=1RaSNsqWhR0mUqlET60ZgfkC28DusoO9K)
 
 **2. Linear Regression Analysis:**
 The linear regression model (1500m WR = 243 -0.335*YEAR (since 1896)) provided insights into the historical trend of world record times. I made predictions for 2025 and 2030 using the model, estimating times of 197.205 seconds and 195.43 seconds, respectively. However, with the nature of this type of model, I do not believe it to be a very accurate predictor for future WR time values. 
