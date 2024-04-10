@@ -5,8 +5,10 @@ layout: default
 ## Project 1: Mexican Tortilla Price Inflation (2007 - 2020)
 My exploration aimed to uncover potential relationships between the inflation of tortilla prices in Mexico (measured in pesos) and the total oil imports/exports as well as arms imports in Mexico from 2007 to 2020. Given the disparate nature of the datasets, with values ranging from millions to billions and spanning various units, I decided to standardize the analysis by calculating the percentage change on a year-over-year basis. This methodology allowed for a more meaningful comparison across the datasets. Throughout my analysis, I followed a systematic approach, beginning with data transformation and ending with forecasting future tortilla prices using SARIMA modeling. Key steps included data inspection to identify and remove outliers, aggregation of the transformed data for visualization, correlation analysis to quantify relationships, and univariate analysis for forecasting.
 
-> All Data was gather from Kaggle OPEN NOTE TO ADD LINKS
-
+> All Data was gather from Kaggle
+> <a href="https://www.kaggle.com/datasets/richave/tortilla-prices-in-mexico" target="_blank">Visit Tortilla Prices Database</a>
+> <a href="https://www.kaggle.com/datasets/toriqulstu/global-crude-petroleum-trade-1995-2021" target="_blank">Visit Crude Oil Export & Import Trading Database</a>
+> <a href="https://www.kaggle.com/datasets/justin2028/arms-imports-per-country" target="_blank">Visit Arms Imports Database</a>
 
 **1. Data Preparation and Transformation:**
 I started by transforming the datasets to calculate the percentage change on a year-over-year basis, ensuring comparability despite differing scales and units. This step was crucial in standardizing the analysis.
