@@ -27,6 +27,12 @@ After debating various transformation methods to enhance the significance of dat
 **5. Conclusion:**
 My analysis revealed the superiority of the quadratic regression model in predicting the 1500m world record, in the short term. While the quadratic model effectively accounted for past, present, and near-future times, its limitations became apparent beyond 2032. For example, my model predicts that the fastest 1500m time in 2050 would be 205.662 seconds, less of an improvement than my estimation for 2021 or 2030. Some other possible methods I debated adding was a asymptote near 173 seconds, since that is roughly 3 times the current world record for the 500m dash set by David Rudisha in 2016. However, in the end I decided that for estimating the near future, the most accurate method to accomplish this was through a quadratic regression. Please see below for a breakdown of final time predictions according to the three seperate regressions:
 
+| Regression Type | 2025 Prediction (seconds) | 2030 Prediction (seconds) |
+|-----------------|----------------------------|----------------------------|
+| Linear          | 197.205                    | 195.43                     |
+| Logarithmic     | 211.803                    | 211.771                    |
+| Quadratic       | 204.946                    | 204.847                    |
+
 
 
 [back](./)
