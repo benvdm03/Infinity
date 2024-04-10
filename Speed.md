@@ -13,7 +13,7 @@ As a Runner, it interests me that some records appear to stand the test of time.
 **1. Data Collection and Cleaning:**
 I collected data spanning years since 1896, with each year being captured as a new world record time was set. I employed a linear regression model initially, yielding a high R-squared value of 94.3%.
 
-![LinearRegression]([https://drive.google.com/uc?export=view&id=1RaSNsqWhR0mUqlET60ZgfkC28DusoO9K](https://drive.google.com/uc?export=view&id=your_file_id/d/1RaSNsqWhR0mUqlET60ZgfkC28DusoO9K/view?usp))
+<img src="https://drive.google.com/uc?export=view&id=1RaSNsqWhR0mUqlET60ZgfkC28DusoO9K" alt="Linear Regression">
 
 
 **2. Linear Regression Analysis:**
