@@ -40,10 +40,13 @@ corr_big_retail_arms = aggregated_results['Arms Imports Mexico Percentage Change
 }
 ```
 
-Correlation between oil exports and average tortilla price change (Mom and Pop): 0.4941951938027625
-Correlation between oil exports and average tortilla price change (Big Retail): 0.20242394452425463
-Correlation between arms imports and average tortilla price change (Mom and Pop): -0.053577438761162964
-Correlation between arms imports and average tortilla price change (Big Retail): -0.07380266842185612
+> Correlation between oil exports and average tortilla price change (Mom and Pop): 0.4941951938027625
+>
+> Correlation between oil exports and average tortilla price change (Big Retail): 0.20242394452425463
+>
+> Correlation between arms imports and average tortilla price change (Mom and Pop): -0.053577438761162964
+>
+> Correlation between arms imports and average tortilla price change (Big Retail): -0.07380266842185612
 
 **5. Univariate Analysis and Forecasting:**
 Finally, I performed a univariate analysis and utilized SARIMA modeling to forecast future tortilla prices based on historical data. This forecasting step enabled me to project potential price trends, aiding in informed decision-making.
