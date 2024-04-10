@@ -13,8 +13,7 @@ Projects that focus on analyzing datasets to extract valuable insights and trend
 # Network Security and Infrastructure 
 
 Projects that focus on ensuring the security and reliability of network infrastructure. They include tasks such as configuring firewalls, implementing encryption protocols, and monitoring network traffic for potential threats. These projects demonstrate expertise in network architecture, cybersecurity protocols, and proactive threat mitigation strategies.
->
-> When something is important enough, you do it even if the odds are not in your favor.
+
 
 # Automation and Scripting 
 
