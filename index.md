@@ -53,7 +53,7 @@ Projects that focus on automating repetitive tasks and streamlining processes th
 
 <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
 
-<div class="badge-base LI-profile-badge" data-locale="en_US" data-size="large" data-theme="dark" data-type="HORIZONTAL" data-vanity="benjamin-van-der-merwe-a2a55b16b" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://www.linkedin.com/in/benjamin-van-der-merwe-a2a55b16b?trk=profile-badge">/a></div>
+<div class="badge-base LI-profile-badge" data-locale="en_US" data-size="large" data-theme="dark" data-type="HORIZONTAL" data-vanity="benjamin-van-der-merwe-a2a55b16b" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://www.linkedin.com/in/benjamin-van-der-merwe-a2a55b16b?trk=profile-badge">
 
               
 
