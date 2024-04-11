@@ -47,6 +47,11 @@ Projects that focus on automating repetitive tasks and streamlining processes th
 *   <a href="https://chat.openai.com/" target="_blank">OpenAI ChatGPT</a>
 *   <a href="https://www.reddit.com/" target="_blank">Reddit</a>
 
+### About me
+* Email: vandermerwe50059@gmail.com
+* Linkedin: <a href="https://www.kaggle.com/" target="_blank">Benjamin van der Merwe</a>
+
+
 <div style="text-align:center;">
   <img src="https://drive.google.com/thumbnail?id=14y-j9hI_v05MPj8c3WR5eQLTCliAZoC-" alt="Friends" style="width: 50%;">
 </div>
