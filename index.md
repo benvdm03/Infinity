@@ -35,9 +35,9 @@ Projects that focus on automating repetitive tasks and streamlining processes th
 
 ##### Future Projects 
 
-1.  Develop a tool that utilizes threat intelligence APIs such as VirusTotal or IBM X-Force to gather information about known threats and indicators of compromise (IOCs).
+1.  Create VPN Server using open-source sofrware such as OpenVPN or WireGuard and implement Two-Factor Authentication (2FA). 
 2.  Develop a Continuous Integration/Continuous Deployment (CI/CD) Pipeline using GitLab CI/CD to build, test, and deploy processes for software applications. 
-3.  Create VPN Server using open-source sofrware such as OpenVPN or WireGuard and implement Two-Factor Authentication (2FA). 
+3.  Develop a tool that utilizes threat intelligence APIs such as VirusTotal or IBM X-Force to gather information about known threats and indicators of compromise (IOCs).
 
 * * *
 
