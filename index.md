@@ -47,13 +47,34 @@ Projects that focus on automating repetitive tasks and streamlining processes th
 *   <a href="https://chat.openai.com/" target="_blank">OpenAI ChatGPT</a>
 *   <a href="https://www.reddit.com/" target="_blank">Reddit</a>
 
-### About me
-* **Email:** vandermerwe50059@gmail.com
-* **Linkedin**: <a href="https://www.linkedin.com/in/benjamin-van-der-merwe-a2a55b16b/" target="_blank">Benjamin van der Merwe</a>
+### Contact Informaiton
 
-<script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Centered LinkedIn Badge</title>
+  <style>
+    .center {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+  </style>
+</head>
+<body>
 
-<div class="badge-base LI-profile-badge" data-locale="en_US" data-size="large" data-theme="dark" data-type="HORIZONTAL" data-vanity="benjamin-van-der-merwe-a2a55b16b" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://www.linkedin.com/in/benjamin-van-der-merwe-a2a55b16b?trk=profile-badge">
+<div class="center">
+  <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
+  <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="large" data-theme="dark" data-type="HORIZONTAL" data-vanity="benjamin-van-der-merwe-a2a55b16b" data-version="v1">
+    <a class="badge-base__link LI-simple-link" href="https://www.linkedin.com/in/benjamin-van-der-merwe-a2a55b16b?trk=profile-badge">
+  </div>
+</div>
+
+</body>
+</html>
 
               
 
