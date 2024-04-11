@@ -48,8 +48,8 @@ Projects that focus on automating repetitive tasks and streamlining processes th
 *   <a href="https://www.reddit.com/" target="_blank">Reddit</a>
 
 ### About me
-* Email: vandermerwe50059@gmail.com
-* Linkedin: <a href="https://www.kaggle.com/" target="_blank">Benjamin van der Merwe</a>
+* **Email:** vandermerwe50059@gmail.com
+* **Linkedin**: <a href="https://www.linkedin.com/in/benjamin-van-der-merwe-a2a55b16b/" target="_blank">Benjamin van der Merwe</a>
 
 
 <div style="text-align:center;">
