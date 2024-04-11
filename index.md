@@ -50,8 +50,9 @@ Projects that focus on automating repetitive tasks and streamlining processes th
 ### About me
 * **Email:** vandermerwe50059@gmail.com
 * **Linkedin**: <a href="https://www.linkedin.com/in/benjamin-van-der-merwe-a2a55b16b/" target="_blank">Benjamin van der Merwe</a>
-
-
+<script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
+<div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="dark" data-type="VERTICAL" data-vanity="benjamin-van-der-merwe-a2a55b16b" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://www.linkedin.com/in/benjamin-van-der-merwe-a2a55b16b?trk=profile-badge">Benjamin van der Merwe</a></div>
+              
 <div style="text-align:center;">
   <img src="https://drive.google.com/thumbnail?id=14y-j9hI_v05MPj8c3WR5eQLTCliAZoC-" alt="Friends" style="width: 50%;">
 </div>
