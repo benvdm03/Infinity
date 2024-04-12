@@ -9,6 +9,8 @@ My exploration aimed to uncover potential relationships between the inflation of
 > <a href="https://www.kaggle.com/datasets/richave/tortilla-prices-in-mexico" target="_blank">Tortilla Prices Database,</a>
 > <a href="https://www.kaggle.com/datasets/toriqulstu/global-crude-petroleum-trade-1995-2021" target="_blank">Crude Oil Export & Import Trading Database, and</a>
 > <a href="https://www.kaggle.com/datasets/justin2028/arms-imports-per-country" target="_blank">Arms Imports Database</a>
+>
+> This project was completed in Python
 
 **1. Data Preparation and Transformation:**
 I started by transforming the datasets to calculate the percentage change on a year-over-year basis, ensuring comparability despite differing scales and units. This step was crucial in standardizing the analysis.
