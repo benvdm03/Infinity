@@ -48,7 +48,7 @@ plot(years, world_record_times_transformed, type = "l", col = "blue", xlab = "Ye
 ![Logarithmic](https://drive.google.com/thumbnail?id=1y5CDpQ3lej5y3N-HtnIqWAkM9MRJMQkv&sz=w1000)
 
 **4. Quadratic Regression:**
-After debating various transformation methods to enhance the significance of data from 1998 onwards, I opted for a quadratic regression model. This choice was based off my belief that it would yield the highest R-Squared Value. The resulting equation for the 1500m world record impressively, demonstrated an R-Squared value of 99.1% and adjusted R-squared value of 99.08%. For the end of 2025 and end of 2030, my model predicts a 1500m World Record time of 204.946 and 204.847 seconds, a improvement of 2.054 and 2.153. 
+After debating various transformation methods to enhance the significance of data from 1998 onwards, I opted for a quadratic regression model. This choice was based off my belief that it would yield the highest R-Squared Value. The resulting equation for the 1500m world record impressively, demonstrated an R-Squared value of 99.1% and adjusted R-squared value of 99.08%. For the end of 2025 and end of 2030, my model predicts a 1500m World Record time of 204.946 and 204.847 seconds, a improvement of 2.054 and 2.153 seconds. 
 
 ![Quadratic](https://drive.google.com/thumbnail?id=1BatmUc9ZF1er6Lg6fQcxvQCglw_CZSxa&sz=w1000)
 
