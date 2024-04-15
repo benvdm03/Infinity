@@ -19,7 +19,7 @@ Projects that focus on analyzing datasets to extract valuable insights and trend
 
 Projects that focus on ensuring the security and reliability of network infrastructure. They include tasks such as configuring firewalls, implementing encryption protocols, and monitoring network traffic for potential threats. These projects demonstrate expertise in network architecture, cybersecurity protocols, and proactive threat mitigation strategies. (Projects Still Being Inputted)
 
-**Project #1** Establish VPN, MFA Configuration Requirements, and Document Logs in AWS S3 Bucket 
+**Project #1** Establish VPN and MFA Configuration Requirements 
 [OpenVPN](./OpenVPN.html).
 
 # Automation and Scripting 
