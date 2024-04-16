@@ -27,7 +27,7 @@ I integrated a second device (iPhone) as a trusted device attached to the VPN fo
 
 ![CloudConnexa4](https://drive.google.com/?id=1dBApK1Zz1qRHua2volz0z12yhhvi3Tx4)
 
-![CloudConnexa5](https://drive.google.com/uc?export=view&id=1vxy9pLU2gfbdmKVxTxqb2usNuzcjCBng)
+<a href="https://lh3.googleusercontent.com/drive-viewer/AKGpihZL8WCtcgXhuUYtg7BvpOdx6pGf45A5tjEDuvWjWvHOfCoJV1Yvy9XhJA-2ZmsuJW2y5O7ySH5EOYplD_jmGhCDOaBBm3571w=s1600-rw-v1?source=screenshot.guru"> <img src="https://lh3.googleusercontent.com/drive-viewer/AKGpihZL8WCtcgXhuUYtg7BvpOdx6pGf45A5tjEDuvWjWvHOfCoJV1Yvy9XhJA-2ZmsuJW2y5O7ySH5EOYplD_jmGhCDOaBBm3571w=s1600-rw-v1" /> </a>
 
 **4. Setup AWS S3 Bucket**
 
