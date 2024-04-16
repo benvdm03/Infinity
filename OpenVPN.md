@@ -36,7 +36,7 @@ Utilizing my personal AWS account, I set up a Secure Scalable Storage (S3) bucke
 <a href="https://lh3.googleusercontent.com/drive-viewer/AKGpihbuiWYtLDLBTysvw-cNyF184aX7j6Gz855GZ7M9pA6GaZLV6gf_pu6wYyqkaZszp1uaeB2zvfrEjf5qJARyaqw66hh8IQreY0c=s1600-rw-v1?source=screenshot.guru"> <img src="https://lh3.googleusercontent.com/drive-viewer/AKGpihbuiWYtLDLBTysvw-cNyF184aX7j6Gz855GZ7M9pA6GaZLV6gf_pu6wYyqkaZszp1uaeB2zvfrEjf5qJARyaqw66hh8IQreY0c=s1600-rw-v1" /> </a>
 
 ```JSON
-// JSON Code with syntax highlighting.
+// JSON Code for CloudConnexa Logging Access
 {
     "Version": "2012-10-17",
     "Statement": [
@@ -68,6 +68,15 @@ Utilizing my personal AWS account, I set up a Secure Scalable Storage (S3) bucke
 
 
 <a href="https://lh3.googleusercontent.com/drive-viewer/AKGpihb0oXbUVER6ZlZ9Y_ORiBBiTr9U7qcXsAo76uL2Qw5Ky4mn-SpL5WB_BfF_CCzXcsbPDdyyH8I7hnXKaIcnPPVPY9J28HAMEw=s1600-rw-v1?source=screenshot.guru"> <img src="https://lh3.googleusercontent.com/drive-viewer/AKGpihb0oXbUVER6ZlZ9Y_ORiBBiTr9U7qcXsAo76uL2Qw5Ky4mn-SpL5WB_BfF_CCzXcsbPDdyyH8I7hnXKaIcnPPVPY9J28HAMEw=s1600-rw-v1" /> </a>
+
+
+**Conclusion**
+
+Through this project, I have not only gained practical experience in setting up a VPN server with two-factor authentication and implementing advanced security measures but also deepened my understanding of network security principles. By documenting my progress and sharing my work on GitHub, I aim to contribute to the broader community of learners interested in network security and foster collaboration and knowledge sharing. This project has provided me with valuable insights and skills that I can apply to future projects and endeavors in the field of cybersecurity.
+
+
+
+
 
 
 [back](./)
