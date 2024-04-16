@@ -15,12 +15,14 @@ Projects that focus on analyzing datasets to extract valuable insights and trend
 **Project #2:** How Fast Can a Human Being Run 1500m? 
 [Speed](./Speed.html).
 
+
 # Network Security and Infrastructure 
 
 Projects that focus on ensuring the security and reliability of network infrastructure. They include tasks such as configuring firewalls, implementing encryption protocols, and monitoring network traffic for potential threats. These projects demonstrate expertise in network architecture, cybersecurity protocols, and proactive threat mitigation strategies. (Projects Still Being Inputted)
 
 **Project #1** Establish VPN and MFA Configuration Requirements 
 [OpenVPN](./OpenVPN.html).
+
 
 # Automation and Scripting 
 
@@ -37,9 +39,8 @@ Projects that focus on automating repetitive tasks and streamlining processes th
 
 ##### Future Projects 
 
-1.  Create VPN Server using open-source sofrware such as OpenVPN or WireGuard and implement Two-Factor Authentication (2FA). 
-2.  Develop a Continuous Integration/Continuous Deployment (CI/CD) Pipeline using GitLab CI/CD to build, test, and deploy processes for software applications. 
-3.  Develop a tool that utilizes threat intelligence APIs such as VirusTotal or IBM X-Force to gather information about known threats and indicators of compromise (IOCs).
+1.  Develop a Continuous Integration/Continuous Deployment (CI/CD) Pipeline using GitLab CI/CD to build, test, and deploy processes for software applications. 
+2.  Develop a tool that utilizes threat intelligence APIs such as VirusTotal or IBM X-Force to gather information about known threats and indicators of compromise (IOCs).
 
 * * *
 
