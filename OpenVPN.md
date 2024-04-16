@@ -19,13 +19,13 @@ I created an account on OpenVPN and utilized CloudConnexa to host my own VPN in 
 
 I implemented firewall configurations through DNS to protect against various threats such as malware, adware, ransomware, phishing, scamming, and cryptojacking. Additionally, I customized the list by directly adding URLs for allowing/blocking categories, including banning timewasters like Facebook, Instagram, and others.
 
-![CloudConnexa3](https://drive.google.com/thumbnail?id=1yDueXD6vkwxZqPUh4YbEWN7D5TXcdkzf)
+<a href="https://lh3.googleusercontent.com/drive-viewer/AKGpiha2lKotjOAsR7l9wmzyW0XhE1WqVjtaO7KU_NGFx0xAElftrqNrq_tptAGyHvuVNyxyRhK1nCVhFAal8aws3rlgQmIzk4_ZE-g=s1600-rw-v1?source=screenshot.guru"> <img src="https://lh3.googleusercontent.com/drive-viewer/AKGpiha2lKotjOAsR7l9wmzyW0XhE1WqVjtaO7KU_NGFx0xAElftrqNrq_tptAGyHvuVNyxyRhK1nCVhFAal8aws3rlgQmIzk4_ZE-g=s1600-rw-v1" /> </a>
 
 **3. Added Trusted Devices and Multi-Factor Authentication (MFA)**
 
 I integrated a second device (iPhone) as a trusted device attached to the VPN for access. Furthermore, I implemented multi-factor authentication (MFA) for any devices connecting to the VPN, enhancing security by requiring additional authentication factors
 
-![CloudConnexa4](https://drive.google.com/?id=1dBApK1Zz1qRHua2volz0z12yhhvi3Tx4)
+<a href="https://lh3.googleusercontent.com/drive-viewer/AKGpihaEh-CEzm5shAtC6KCFSzstirYwKXW8hc1VM4LtEzafmeAS857_u6NYkXXzYJn7biOUtbsCRcSAvhvvOAKf1xPjuUhnqUW-lA=s1600-rw-v1?source=screenshot.guru"> <img src="https://lh3.googleusercontent.com/drive-viewer/AKGpihaEh-CEzm5shAtC6KCFSzstirYwKXW8hc1VM4LtEzafmeAS857_u6NYkXXzYJn7biOUtbsCRcSAvhvvOAKf1xPjuUhnqUW-lA=s1600-rw-v1" /> </a>
 
 <a href="https://lh3.googleusercontent.com/drive-viewer/AKGpihZL8WCtcgXhuUYtg7BvpOdx6pGf45A5tjEDuvWjWvHOfCoJV1Yvy9XhJA-2ZmsuJW2y5O7ySH5EOYplD_jmGhCDOaBBm3571w=s1600-rw-v1?source=screenshot.guru"> <img src="https://lh3.googleusercontent.com/drive-viewer/AKGpihZL8WCtcgXhuUYtg7BvpOdx6pGf45A5tjEDuvWjWvHOfCoJV1Yvy9XhJA-2ZmsuJW2y5O7ySH5EOYplD_jmGhCDOaBBm3571w=s1600-rw-v1" /> </a>
 
