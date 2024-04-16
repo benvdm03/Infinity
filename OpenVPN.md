@@ -33,8 +33,8 @@ I integrated a second device (iPhone) as a trusted device attached to the VPN fo
 
 Utilizing my personal AWS account, I set up a Secure Scalable Storage (S3) bucket. I implemented security measures such as blocking public access, enabling versioning, and default SSE-S3 encryption to protect stored data. Additionally, I added log streaming (Beta) directly to the AWS S3 bucket, allowing for centralized logging and analysis of VPN activity and security events.
 
-![CloudConnexa6](https://drive.google.com/uc?export=view&id=1-QwaHvSURvS_TXMPyIQ3KQep8hM-rNNg)
+<a href="https://lh3.googleusercontent.com/drive-viewer/AKGpihbuiWYtLDLBTysvw-cNyF184aX7j6Gz855GZ7M9pA6GaZLV6gf_pu6wYyqkaZszp1uaeB2zvfrEjf5qJARyaqw66hh8IQreY0c=s1600-rw-v1?source=screenshot.guru"> <img src="https://lh3.googleusercontent.com/drive-viewer/AKGpihbuiWYtLDLBTysvw-cNyF184aX7j6Gz855GZ7M9pA6GaZLV6gf_pu6wYyqkaZszp1uaeB2zvfrEjf5qJARyaqw66hh8IQreY0c=s1600-rw-v1" /> </a>
 
 Enter JSON here
 
-![CloudConnexa6](https://drive.google.com/uc?export=view&id=17NXz7lodHpZiQVXWfn9UFiYY0WkLozxr)
+<a href="https://lh3.googleusercontent.com/drive-viewer/AKGpihb0oXbUVER6ZlZ9Y_ORiBBiTr9U7qcXsAo76uL2Qw5Ky4mn-SpL5WB_BfF_CCzXcsbPDdyyH8I7hnXKaIcnPPVPY9J28HAMEw=s1600-rw-v1?source=screenshot.guru"> <img src="https://lh3.googleusercontent.com/drive-viewer/AKGpihb0oXbUVER6ZlZ9Y_ORiBBiTr9U7qcXsAo76uL2Qw5Ky4mn-SpL5WB_BfF_CCzXcsbPDdyyH8I7hnXKaIcnPPVPY9J28HAMEw=s1600-rw-v1" /> </a>
