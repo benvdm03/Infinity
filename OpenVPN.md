@@ -12,7 +12,7 @@ As I embarked on the VPN Server project, my goal was to build upon my foundation
 
 I created an account on OpenVPN and utilized CloudConnexa to host my own VPN in the cloud. This involved configuring my personal laptop to connect to the VPN via a direct integration connection to the cloud-hosted CloudConnexa service.
 
-![CloudConnexa1](https://drive.google.com/thumbnail?id=15Ya_u6Hyt9lgaFMllXEk64UcwT40eD3e)
+![CloudConnexa1](https://drive.google.com/thumbnail?id=1ECHHK8ncuhoggGLyDcdouGNbrM0W8Wny)
 ![CloudConnexa2](https://drive.google.com/thumbnail?id=15Ya_u6Hyt9lgaFMllXEk64UcwT40eD3e)
 
 **2. Firewall Configuration with DNS Protection**
@@ -25,7 +25,7 @@ I implemented firewall configurations through DNS to protect against various thr
 
 I integrated a second device (iPhone) as a trusted device attached to the VPN for access. Furthermore, I implemented multi-factor authentication (MFA) for any devices connecting to the VPN, enhancing security by requiring additional authentication factors
 
-![CloudConnexa4](https://drive.google.com/thumbnail?id=1dBApK1Zz1qRHua2volz0z12yhhvi3Tx4)
+![CloudConnexa4](https://drive.google.com/uc?id=1dBApK1Zz1qRHua2volz0z12yhhvi3Tx4)
 
 **4. Setup AWS S3 Bucket**
 
