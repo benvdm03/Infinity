@@ -35,3 +35,76 @@ layout: default
     </script>
 </body>
 </html>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding Journey Survey</title>
+</head>
+<body>
+    <h1>Coding Journey Survey</h1>
+    <p>Please answer the following questions about your coding journey:</p>
+
+    <!-- Form -->
+    <form id="codingSurveyForm">
+        <label for="familiarity">How familiar are you with coding?</label><br>
+        <input type="radio" id="novice" name="familiarity" value="novice">
+        <label for="novice">Novice</label><br>
+        <input type="radio" id="intermediate" name="familiarity" value="intermediate">
+        <label for="intermediate">Intermediate</label><br>
+        <input type="radio" id="advanced" name="familiarity" value="advanced">
+        <label for="advanced">Advanced</label><br><br>
+
+        <label for="professional">Do you use coding professionally?</label><br>
+        <input type="radio" id="yesProfessional" name="professional" value="yes">
+        <label for="yesProfessional">Yes</label><br>
+        <input type="radio" id="noProfessional" name="professional" value="no">
+        <label for="noProfessional">No</label><br><br>
+
+        <label for="personal">Do you use coding personally?</label><br>
+        <input type="radio" id="yesPersonal" name="personal" value="yes">
+        <label for="yesPersonal">Yes</label><br>
+        <input type="radio" id="noPersonal" name="personal" value="no">
+        <label for="noPersonal">No</label><br><br>
+
+        <label for="technology">What do you think the most useful piece of technology is in your kitchen?</label><br>
+        <input type="text" id="technology" name="technology"><br><br>
+
+        <label for="trickQuestion">Trick question, why is the correct answer refrigerator?</label><br>
+        <input type="text" id="trickQuestion" name="trickQuestion"><br><br>
+
+        <!-- Submit button -->
+        <input type="submit" value="Submit">
+    </form>
+
+    <!-- Explanation text -->
+    <p>This form does not retain your responses, but rather provides interactive elements for the automated Selenium script to interact with.</p>
+
+    <!-- Script to handle form submission -->
+    <script>
+        document.getElementById("codingSurveyForm").addEventListener("submit", function(event) {
+            event.preventDefault(); // Prevent form submission
+
+            // Retrieve form data
+            var familiarity = document.querySelector('input[name="familiarity"]:checked').value;
+            var professional = document.querySelector('input[name="professional"]:checked').value;
+            var personal = document.querySelector('input[name="personal"]:checked').value;
+            var technology = document.getElementById("technology").value;
+            var trickQuestion = document.getElementById("trickQuestion").value;
+
+            // Display form data (you can modify this to perform other actions)
+            alert("Familiarity with coding: " + familiarity +
+                  "\nUses coding professionally: " + professional +
+                  "\nUses coding personally: " + personal +
+                  "\nMost useful kitchen technology: " + technology +
+                  "\nTrick question answer: " + trickQuestion);
+
+            // You can add additional logic here to store or process the form data
+        });
+    </script>
+</body>
+</html>
