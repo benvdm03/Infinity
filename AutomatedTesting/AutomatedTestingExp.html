@@ -132,21 +132,28 @@ layout: default
             cursor: move;
         }
 
-        .resizable {
-            resize: both;
-            overflow: auto;
-            border: 1px solid #000;
-            cursor: pointer;
+        .toggle-container {
+            margin-top: 10px;
+        }
+
+        .toggle-label {
+            font-weight: bold;
         }
     </style>
 </head>
 <body>
     <h1>Interactive Widget</h1>
-    <p>Drag, resize, and change the color of the elements:</p>
+    <p>Drag and change the color of the element:</p>
 
-    <!-- Draggable and resizable element -->
-    <div id="draggableResizable" class="draggable resizable" style="left: 50px; top: 50px;">
-        Drag me! Resize me! Change my color!
+    <!-- Draggable element -->
+    <div id="draggable" class="draggable" style="left: 50px; top: 50px;">
+        Drag me! Change my color!
+    </div>
+
+    <!-- Toggle to enable/disable resizing -->
+    <div class="toggle-container">
+        <input type="checkbox" id="toggleResize">
+        <label for="toggleResize" class="toggle-label">Enable Resize</label>
     </div>
 
     <!-- Color picker -->
@@ -155,7 +162,7 @@ layout: default
 
     <script>
         // Make the element draggable
-        dragElement(document.getElementById("draggableResizable"));
+        dragElement(document.getElementById("draggable"));
 
         // Function to make an element draggable
         function dragElement(element) {
@@ -201,9 +208,29 @@ layout: default
 
         // Change element's color based on color picker value
         document.getElementById("colorPicker").addEventListener("input", function() {
-            document.getElementById("draggableResizable").style.backgroundColor = this.value;
+            document.getElementById("draggable").style.backgroundColor = this.value;
+        });
+
+        // Toggle to enable/disable resizing
+        document.getElementById("toggleResize").addEventListener("change", function() {
+            var draggableElement = document.getElementById("draggable");
+            if (this.checked) {
+                // Enable resizing
+                draggableElement.style.resize = "both";
+                draggableElement.style.overflow = "auto";
+                draggableElement.style.cursor = "nwse-resize";
+            } else {
+                // Disable resizing
+                draggableElement.style.resize = "none";
+                draggableElement.style.overflow = "hidden";
+                draggableElement.style.cursor = "move";
+            }
         });
     </script>
 </body>
 </html>
+
+
+
+
 
