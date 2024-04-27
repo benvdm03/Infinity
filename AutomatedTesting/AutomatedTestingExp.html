@@ -116,6 +116,7 @@ layout: default
 
 
 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -150,10 +151,10 @@ layout: default
         Drag me! Change my color!
     </div>
 
-    <!-- Toggle to enable/disable resizing -->
+    <!-- Toggle to enable/disable dragging -->
     <div class="toggle-container">
-        <input type="checkbox" id="toggleResize">
-        <label for="toggleResize" class="toggle-label">Enable Resize</label>
+        <input type="checkbox" id="toggleDrag">
+        <label for="toggleDrag" class="toggle-label">Enable Dragging</label>
     </div>
 
     <!-- Color picker -->
@@ -211,26 +212,17 @@ layout: default
             document.getElementById("draggable").style.backgroundColor = this.value;
         });
 
-        // Toggle to enable/disable resizing
-        document.getElementById("toggleResize").addEventListener("change", function() {
+        // Toggle to enable/disable dragging
+        document.getElementById("toggleDrag").addEventListener("change", function() {
             var draggableElement = document.getElementById("draggable");
             if (this.checked) {
-                // Enable resizing
-                draggableElement.style.resize = "both";
-                draggableElement.style.overflow = "auto";
-                draggableElement.style.cursor = "nwse-resize";
-            } else {
-                // Disable resizing
-                draggableElement.style.resize = "none";
-                draggableElement.style.overflow = "hidden";
+                // Enable dragging
                 draggableElement.style.cursor = "move";
+            } else {
+                // Disable dragging
+                draggableElement.style.cursor = "default";
             }
         });
     </script>
 </body>
 </html>
-
-
-
-
-
