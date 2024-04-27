@@ -113,3 +113,97 @@ layout: default
     </script>
 </body>
 </html>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Widget</title>
+    <style>
+        .draggable {
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            background-color: #ffcc00;
+            border: 1px solid #000;
+            cursor: move;
+        }
+
+        .resizable {
+            resize: both;
+            overflow: auto;
+            border: 1px solid #000;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Interactive Widget</h1>
+    <p>Drag, resize, and change the color of the elements:</p>
+
+    <!-- Draggable and resizable element -->
+    <div id="draggableResizable" class="draggable resizable" style="left: 50px; top: 50px;">
+        Drag me! Resize me! Change my color!
+    </div>
+
+    <!-- Color picker -->
+    <label for="colorPicker">Choose a color:</label>
+    <input type="color" id="colorPicker">
+
+    <script>
+        // Make the element draggable
+        dragElement(document.getElementById("draggableResizable"));
+
+        // Function to make an element draggable
+        function dragElement(element) {
+            var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
+            if (document.getElementById(element.id + "header")) {
+                // If present, the header is where you move the DIV from:
+                document.getElementById(element.id + "header").onmousedown = dragMouseDown;
+            } else {
+                // Otherwise, move the DIV from anywhere inside the DIV:
+                element.onmousedown = dragMouseDown;
+            }
+
+            function dragMouseDown(e) {
+                e = e || window.event;
+                e.preventDefault();
+                // get the mouse cursor position at startup:
+                pos3 = e.clientX;
+                pos4 = e.clientY;
+                document.onmouseup = closeDragElement;
+                // call a function whenever the cursor moves:
+                document.onmousemove = elementDrag;
+            }
+
+            function elementDrag(e) {
+                e = e || window.event;
+                e.preventDefault();
+                // calculate the new cursor position:
+                pos1 = pos3 - e.clientX;
+                pos2 = pos4 - e.clientY;
+                pos3 = e.clientX;
+                pos4 = e.clientY;
+                // set the element's new position:
+                element.style.top = (element.offsetTop - pos2) + "px";
+                element.style.left = (element.offsetLeft - pos1) + "px";
+            }
+
+            function closeDragElement() {
+                // stop moving when mouse button is released:
+                document.onmouseup = null;
+                document.onmousemove = null;
+            }
+        }
+
+        // Change element's color based on color picker value
+        document.getElementById("colorPicker").addEventListener("input", function() {
+            document.getElementById("draggableResizable").style.backgroundColor = this.value;
+        });
+    </script>
+</body>
+</html>
+
