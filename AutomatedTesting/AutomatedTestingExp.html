@@ -131,50 +131,32 @@ layout: default
             background-color: #ffcc00;
             border: 1px solid #000;
             cursor: move;
-        }
-
-        .toggle-container {
-            margin-top: 10px;
-        }
-
-        .toggle-label {
-            font-weight: bold;
+            display: none; /* Initially hide the widget */
         }
     </style>
 </head>
 <body>
     <h1>Interactive Widget</h1>
-    <p>Drag and change the color of the element:</p>
+    <p>Toggle the widget, choose its color, and drag it around the screen:</p>
 
-    <!-- Draggable element -->
-    <div id="draggable" class="draggable" style="left: 50px; top: 50px;">
-        Drag me! Change my color!
-    </div>
-
-    <!-- Toggle to enable/disable dragging -->
+    <!-- Toggle to turn the widget on or off -->
     <div class="toggle-container">
-        <input type="checkbox" id="toggleDrag">
-        <label for="toggleDrag" class="toggle-label">Enable Dragging</label>
+        <input type="checkbox" id="toggleWidget">
+        <label for="toggleWidget">Toggle Widget</label>
     </div>
 
     <!-- Color picker -->
     <label for="colorPicker">Choose a color:</label>
     <input type="color" id="colorPicker">
 
-    <script>
-        // Make the element draggable
-        dragElement(document.getElementById("draggable"));
+    <!-- Draggable element (widget) -->
+    <div id="draggable" class="draggable"></div>
 
+    <script>
         // Function to make an element draggable
         function dragElement(element) {
             var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
-            if (document.getElementById(element.id + "header")) {
-                // If present, the header is where you move the DIV from:
-                document.getElementById(element.id + "header").onmousedown = dragMouseDown;
-            } else {
-                // Otherwise, move the DIV from anywhere inside the DIV:
-                element.onmousedown = dragMouseDown;
-            }
+            element.onmousedown = dragMouseDown;
 
             function dragMouseDown(e) {
                 e = e || window.event;
@@ -207,21 +189,24 @@ layout: default
             }
         }
 
-        // Change element's color based on color picker value
+        // Function to show or hide the widget based on the toggle state
+        function toggleWidget() {
+            var widget = document.getElementById("draggable");
+            var toggle = document.getElementById("toggleWidget");
+            if (toggle.checked) {
+                widget.style.display = "block"; // Show the widget
+                dragElement(widget); // Make the widget draggable
+            } else {
+                widget.style.display = "none"; // Hide the widget
+            }
+        }
+
+        // Listen for changes to the toggle state
+        document.getElementById("toggleWidget").addEventListener("change", toggleWidget);
+
+        // Listen for changes to the color picker value
         document.getElementById("colorPicker").addEventListener("input", function() {
             document.getElementById("draggable").style.backgroundColor = this.value;
-        });
-
-        // Toggle to enable/disable dragging
-        document.getElementById("toggleDrag").addEventListener("change", function() {
-            var draggableElement = document.getElementById("draggable");
-            if (this.checked) {
-                // Enable dragging
-                draggableElement.style.cursor = "move";
-            } else {
-                // Disable dragging
-                draggableElement.style.cursor = "default";
-            }
         });
     </script>
 </body>
