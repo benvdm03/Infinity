@@ -39,4 +39,5 @@ try:
 except Exception as e:
     print("An error occurred:", e)
 
-# Note: The browser window will remain open after script execution for result inspection
+# Manual wait to keep the browser window open
+input("Press Enter to close the browser window...")
