@@ -7,7 +7,7 @@ import time
 driver = webdriver.Chrome()
 
 # Navigate to your interactive HTML page
-driver.get("URL_TO_YOUR_HTML_PAGE")
+driver.get("https://benvdm03.github.io/Infinity/AutomatedTesting/AutomatedTestingExp.html")
 
 try:
     # Test Case 1: Dropdown Response
