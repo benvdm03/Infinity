@@ -1,109 +1,181 @@
 ---
 layout: default
 ---
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Web Page</title>
+    <title>Coding Journey Survey</title>
+</head>
+<body>
+    <h1>Coding Journey Survey</h1>
+    <p>Please answer the following questions about your coding journey:</p>
+
+    <!-- Form -->
+    <form id="codingSurveyForm">
+        <label for="familiarity">How familiar are you with coding?</label><br>
+        <input type="radio" id="novice" name="familiarity" value="novice">
+        <label for="novice">Novice</label><br>
+        <input type="radio" id="intermediate" name="familiarity" value="intermediate">
+        <label for="intermediate">Intermediate</label><br>
+        <input type="radio" id="advanced" name="familiarity" value="advanced">
+        <label for="advanced">Advanced</label><br><br>
+
+        <label for="professional">Do you use coding professionally?</label><br>
+        <input type="radio" id="yesProfessional" name="professional" value="yes">
+        <label for="yesProfessional">Yes</label><br>
+        <input type="radio" id="noProfessional" name="professional" value="no">
+        <label for="noProfessional">No</label><br><br>
+
+        <label for="personal">Do you use coding personally?</label><br>
+        <input type="radio" id="yesPersonal" name="personal" value="yes">
+        <label for="yesPersonal">Yes</label><br>
+        <input type="radio" id="noPersonal" name="personal" value="no">
+        <label for="noPersonal">No</label><br><br>
+
+        <label for="technology">What do you think the most useful piece of technology is in your kitchen?</label><br>
+        <input type="text" id="technology" name="technology"><br><br>
+
+        <label for="trickQuestion">Trick question, why is the correct answer refrigerator?</label><br>
+        <input type="text" id="trickQuestion" name="trickQuestion"><br><br>
+
+        <!-- Submit button -->
+        <input type="submit" value="Submit">
+    </form>
+
+    <!-- Explanation text -->
+    <p>This form does not retain your responses, but rather provides interactive elements for the automated Selenium script to interact with.</p>
+
+    <!-- Script to handle form submission -->
+    <script>
+        document.getElementById("codingSurveyForm").addEventListener("submit", function(event) {
+            event.preventDefault(); // Prevent form submission
+
+            // Retrieve form data
+            var familiarity = document.querySelector('input[name="familiarity"]:checked').value;
+            var professional = document.querySelector('input[name="professional"]:checked').value;
+            var personal = document.querySelector('input[name="personal"]:checked').value;
+            var technology = document.getElementById("technology").value;
+            var trickQuestion = document.getElementById("trickQuestion").value;
+
+            // Display form data (you can modify this to perform other actions)
+            alert("Familiarity with coding: " + familiarity +
+                  "\nUses coding professionally: " + professional +
+                  "\nUses coding personally: " + personal +
+                  "\nMost useful kitchen technology: " + technology +
+                  "\nTrick question answer: " + trickQuestion);
+
+            // You can add additional logic here to store or process the form data
+        });
+    </script>
+</body>
+</html>
+
+
+</div>
+<div class="section">
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Widget</title>
     <style>
-        /* Apply margin-bottom to create space between sections */
-        .section {
-            margin-bottom: 20px; /* Adjust the value as needed */
+        .draggable {
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            background-color: #ffcc00;
+            border: 1px solid #000;
+            cursor: move;
+            display: none; /* Initially hide the widget */
         }
     </style>
 </head>
 <body>
-    <!-- First section -->
-    <div class="section">
-        <html lang="en">
-        <head>
-            <meta charset="UTF-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>Why are you browsing?</title>
-        </head>
-        <body>
-            
-            <h1>Welcome to the Automated Response Testing Framework!</h1>
-            <p>Please select why you are browsing:</p>
+    <h1>Interactive Widget</h1>
+    <p>Toggle the widget, choose its color, and drag it around the screen:</p>
 
-            <!-- Dropdown menu -->
-            <select id="reason">
-                <option value="recruiter">Recruiter</option>
-                <option value="coworker">Coworker</option>
-                <option value="friend">Friend</option>
-                <option value="robot">Robot</option>
-            </select>
-
-            <!-- Submit button -->
-            <button id="submitButton">Submit</button>
-
-        <p>This field above does not retain your responses, but rather provides interactive elements for the automated Selenium script to interact with.</p>
-
-            
-            <!-- Script to handle form submission -->
-            <script>
-                document.getElementById("submitButton").addEventListener("click", function() {
-                    var reason = document.getElementById("reason").value;
-                    alert("You selected: " + reason);
-                    // You can add additional logic here to store the selected reason
-                });
-            </script>
-        </body>
-        </html>
+    <!-- Toggle to turn the widget on or off -->
+    <div class="toggle-container">
+        <input type="checkbox" id="toggleWidget">
+        <label for="toggleWidget">Toggle Widget</label>
     </div>
 
-    <!-- Second section -->
-    <div class="section">
-        <!DOCTYPE html>
-        <html lang="en">
-        <head>
-            <meta charset="UTF-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>Coding Journey Survey</title>
-        </head>
-        <body>
-            <h1>Coding Journey Survey</h1>
-            <p>Please answer the following questions about your coding journey:</p>
+    <!-- Color picker -->
+    <label for="colorPicker">Choose a color:</label>
+    <input type="color" id="colorPicker">
 
-            <!-- Form -->
-            <form id="codingSurveyForm">
-                <!-- Form fields -->
-            </form>
+    <!-- Draggable element (widget) -->
+    <div id="draggable" class="draggable"></div>
 
-            <!-- Explanation text -->
-            <p>This form does not retain your responses, but rather provides interactive elements for the automated Selenium script to interact with.</p>
+    <script>
+        // Function to make an element draggable
+        function dragElement(element) {
+            var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
+            element.onmousedown = dragMouseDown;
 
-            <!-- Script to handle form submission -->
-            <script>
-                // Script code
-            </script>
-        </body>
-        </html>
-    </div>
+            function dragMouseDown(e) {
+                e = e || window.event;
+                e.preventDefault();
+                // get the mouse cursor position at startup:
+                pos3 = e.clientX;
+                pos4 = e.clientY;
+                document.onmouseup = closeDragElement;
+                // call a function whenever the cursor moves:
+                document.onmousemove = elementDrag;
+            }
 
-    <!-- Third section -->
-    <div class="section">
-        <!DOCTYPE html>
-        <html lang="en">
-        <head>
-            <meta charset="UTF-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>Interactive Widget</title>
-            <style>
-                /* CSS styles for the draggable widget */
-            </style>
-        </head>
-        <body>
-            <h1>Interactive Widget</h1>
-            <p>Toggle the widget, choose its color, and drag it around the screen:</p>
+            function elementDrag(e) {
+                e = e || window.event;
+                e.preventDefault();
+                // calculate the new cursor position:
+                pos1 = pos3 - e.clientX;
+                pos2 = pos4 - e.clientY;
+                pos3 = e.clientX;
+                pos4 = e.clientY;
+                // set the element's new position:
+                element.style.top = (element.offsetTop - pos2) + "px";
+                element.style.left = (element.offsetLeft - pos1) + "px";
+            }
 
-            <!-- Widget elements -->
-        </body>
-        </html>
-    </div>
+            function closeDragElement() {
+                // stop moving when mouse button is released:
+                document.onmouseup = null;
+                document.onmousemove = null;
+            }
+        }
+
+        // Function to show or hide the widget based on the toggle state
+        function toggleWidget() {
+            var widget = document.getElementById("draggable");
+            var toggle = document.getElementById("toggleWidget");
+            if (toggle.checked) {
+                widget.style.display = "block"; // Show the widget
+                dragElement(widget); // Make the widget draggable
+            } else {
+                widget.style.display = "none"; // Hide the widget
+            }
+        }
+
+        // Listen for changes to the toggle state
+        document.getElementById("toggleWidget").addEventListener("change", toggleWidget);
+
+        // Listen for changes to the color picker value
+        document.getElementById("colorPicker").addEventListener("input", function() {
+            document.getElementById("draggable").style.backgroundColor = this.value;
+        });
+    </script>
 </body>
 </html>
+
+
+</div>
 
 
