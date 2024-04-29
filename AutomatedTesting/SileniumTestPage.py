@@ -7,7 +7,7 @@ import time
 driver = webdriver.Chrome()
 
 # Navigate to your interactive HTML page
-driver.get("https://benvdm03.github.io/Infinity/AutomatedTesting/AutomatedTestingExp.html")
+driver.get("URL_TO_YOUR_HTML_PAGE")
 
 try:
     # Test Case 1: Dropdown Response
@@ -36,8 +36,7 @@ try:
     # Perform drag-and-drop action on the widget (assuming you've implemented draggable functionality)
     # You may need to implement additional code to perform this action
 
-finally:
-    # Close the browser window
-    driver.quit()
+except Exception as e:
+    print("An error occurred:", e)
 
-
+# Note: The browser window will remain open after script execution for result inspection
