@@ -1,6 +1,46 @@
 ---
 layout: default
 ---
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Why are you browsing?</title>
+</head>
+<body>
+    <h1>Welcome to My Webpage!</h1>
+    <p>Please select why you are browsing:</p>
+
+    <!-- Dropdown menu -->
+    <select id="reason">
+        <option value="recruiter">Recruiter</option>
+        <option value="coworker">Coworker</option>
+        <option value="friend">Friend</option>
+        <option value="robot">Robot</option>
+    </select>
+
+    <!-- Submit button -->
+    <button id="submitButton">Submit</button>
+
+<p>This field above does not retain your responses, but rather provides interactive elements for the automated Selenium script to interact with.</p>
+
+    
+    <!-- Script to handle form submission -->
+    <script>
+        document.getElementById("submitButton").addEventListener("click", function() {
+            var reason = document.getElementById("reason").value;
+            alert("You selected: " + reason);
+            // You can add additional logic here to store the selected reason
+        });
+    </script>
+</body>
+</html>
+
+
+
+<div class="section">
+
+
 
 
 <!DOCTYPE html>
@@ -177,5 +217,3 @@ layout: default
 
 
 </div>
-
-
