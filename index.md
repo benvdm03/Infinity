@@ -29,7 +29,7 @@ Projects that focus on ensuring the security and reliability of network infrastr
 Projects that focus on automating repetitive tasks and streamlining processes through scripting and automation techniques. They showcase the ability to write scripts in languages like Python or PowerShell to automate system administration tasks, deploy software, or perform data processing operations. These projects demonstrate efficiency, accuracy, and innovation in optimizing workflows through automation. (Projects Still Being Inputted)
 
 **Project #1:** Automated Testing Framework Implementation 
-[AutomatedTestingFramework](./AutomatedTesting/AutomatedTestingExp.html).
+[AutomatedTestingFramework](./AutomatedTesting.html).
 
 #### Relevant Certifications & Experience 
 
