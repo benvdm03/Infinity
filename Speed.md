@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Project 2 : Exploration of the 1500m Dash World Record
+## Exploration of the 1500m Dash World Record
 
 As a Runner, it interests me that some records appear to stand the test of time. Specifically, the record for the 1500m Dash held by Hicham El Guerrouj of Morocco, hasn’t yet been broken since he set it in 1998. This study aimed to analyze the historical data of the 1500m Dash world record to explore trends and predict future record times.
 
