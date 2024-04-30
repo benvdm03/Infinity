@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Project Summary : Automated Web Testing Using Selenium
+## Automated Web Testing 
 
 As I embarked on the VPN Server project, my goal was to build upon my foundational knowledge in network security by implementing a secure and robust network infrastructure. Through practical application and hands-on experience, I aimed to understand and implement essential networking and security principles, with a focus on VPN protocols, encryption, authentication mechanisms, and access control. 
 The primary goal of this project is to demonstrate the process and benefits of automating web testing through Selenium WebDriver. By automating interactions with a specially designed dummy website, I aimed to validate its functionality efficiently and to ensure the reliability of its user interactions. This exercise serves as a practical introduction to the setup, execution, and benefits of automated web testing in real-world applications.
