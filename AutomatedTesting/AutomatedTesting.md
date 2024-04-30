@@ -22,7 +22,7 @@ The interactive elements I created were:
 >> A form that users can fill out.
 >> An interactive widget that users can manipulate.
 
-See here for the dummy page: [AutomatedTestingFramework](./AutomatedTesting/AutomatedTestingExp.html).
+See here for the dummy page: [AutomatedTestingDummyShell](./AutomatedTestingExp.html).
 
 **3. Test Script Development**
 
