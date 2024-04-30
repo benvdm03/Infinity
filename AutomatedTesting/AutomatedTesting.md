@@ -60,6 +60,19 @@ except Exception as e:
 
 
 
+<a href="https://lh3.googleusercontent.com/drive-viewer/AKGpihZJ47Ysqi2QNBad1J_hgFRHL90cTTZ8qjbTf16-ziQErQEJ2VEnaF6dHy3CPDPufLR9Weo0jsUE-cwL88JRxkKL3YgbicTCjw=s1600-rw-v1?source=screenshot.guru"> <img src="https://lh3.googleusercontent.com/drive-viewer/AKGpihZJ47Ysqi2QNBad1J_hgFRHL90cTTZ8qjbTf16-ziQErQEJ2VEnaF6dHy3CPDPufLR9Weo0jsUE-cwL88JRxkKL3YgbicTCjw=s1600-rw-v1" /> </a>
+
+
+
+<a href="https://lh3.googleusercontent.com/drive-viewer/AKGpihYHCXwgircj7w58ng8ffOdSSKsgaYXPAKGNXHLwc5ZD9UinvTr-rbn5DichRIWGPT0lVMrbWLOhd4k9uV9HmN-UjlPKj6sxGVY=s1600-rw-v1?source=screenshot.guru"> <img src="https://lh3.googleusercontent.com/drive-viewer/AKGpihYHCXwgircj7w58ng8ffOdSSKsgaYXPAKGNXHLwc5ZD9UinvTr-rbn5DichRIWGPT0lVMrbWLOhd4k9uV9HmN-UjlPKj6sxGVY=s1600-rw-v1" /> </a>
+
+
+
+<a href="https://lh3.googleusercontent.com/drive-viewer/AKGpihZo8dhC8uJOhx3ew0A4hAPiLl41WoB30RfYI_z0imarEguyCkgfjT-tFLKan8X_-vXWG7zqsy0PP609h4JE3ofAV7A--zvd35s=s1600-rw-v1?source=screenshot.guru"> <img src="https://lh3.googleusercontent.com/drive-viewer/AKGpihZo8dhC8uJOhx3ew0A4hAPiLl41WoB30RfYI_z0imarEguyCkgfjT-tFLKan8X_-vXWG7zqsy0PP609h4JE3ofAV7A--zvd35s=s1600-rw-v1" /> </a>
+
+
+
+
 **Conclusions**
 
 Through this project, I learned the importance and effectiveness of automated testing in software development, particularly in validating web applications. Automation not only saves time but also increases the reliability of testing by ensuring that all functionalities are consistently checked under predefined conditions. The hands-on experience gained from setting up the environment, scripting, and executing tests using Selenium WebDriver provided valuable insights into both the challenges and capabilities of automated testing. This project underscores the value of automation in achieving robust software solutions that perform well under user expectations and defined specifications.
