@@ -40,7 +40,7 @@ Projects that focus on automating repetitive tasks and streamlining processes th
 
 ##### Future Projects 
 
-1.  Develop a Continuous Integration/Continuous Deployment (CI/CD) Pipeline using GitLab CI/CD to build, test, and deploy processes for software applications. 
+1.  Build an AI-powered Connect 4 game using machine learning techniques, allowing it to learn from gameplay data and progressively enhance its strategies, then integrate it for interactive play
 2.  Develop a tool that utilizes threat intelligence APIs such as VirusTotal or IBM X-Force to gather information about known threats and indicators of compromise (IOCs).
 
 * * *
