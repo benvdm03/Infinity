@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Project 1 : Open VPN Configuration, MFA Access, and AWS S3 Logging
+## Open VPN Configuration, MFA Access, and AWS S3 Logging
 
 As I embarked on the VPN Server project, my goal was to build upon my foundational knowledge in network security by implementing a secure and robust network infrastructure. Through practical application and hands-on experience, I aimed to understand and implement essential networking and security principles, with a focus on VPN protocols, encryption, authentication mechanisms, and access control.
 
