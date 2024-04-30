@@ -28,6 +28,32 @@ See here for the dummy page: [AutomatedTestingDummyShell](./AutomatedTestingExp.
 I developed Selenium scripts tailored to interact with the dummy website’s elements. The scripts are designed to automatically select dropdown options, fill out forms, and interact with the widget, thus simulating user behavior.
 
 
+
+```Python 
+// Python Silenium Code snippet with syntax highlighting.
+try:
+    select_element = Select(driver.find_element(By.ID, "reason"))
+    select_element.select_by_value("friend")
+    time.sleep(1)
+    
+    driver.find_element(By.ID, "novice").click()
+    driver.find_element(By.ID, "yesProfessional").click()
+    driver.find_element(By.ID, "yesPersonal").click()
+    driver.find_element(By.ID, "technology").send_keys("Microwave")
+    driver.find_element(By.ID, "trickQuestion").send_keys("Because it keeps food fresh!")
+    driver.find_element(By.CSS_SELECTOR, "input[type='submit']").click()
+    time.sleep(1)
+
+    driver.find_element(By.ID, "toggleWidget").click()
+    time.sleep(1)
+    driver.find_element(By.ID, "colorPicker").send_keys("#ff0000")
+    time.sleep(1)
+    
+except Exception as e:
+    print("An error occurred:", e)
+
+```
+
 **4. Test Execution and Reporting**
 
  After running the tests, I verified that the Selenium scripts successfully interacted with the web elements as intended. The outcome was documented to provide insights into the functionality and accuracy of the test cases.
