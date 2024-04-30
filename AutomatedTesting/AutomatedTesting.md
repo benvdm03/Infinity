@@ -18,9 +18,9 @@ I Installed Selenium WebDriver and the necessary browser drivers (ChromeDriver) 
 I Created a dummy interactive website hosted on GitHub, designed to test various functionalities such as dropdown selections, form submissions, and widget manipulations. The switch from Markdown to HTML format enabled more dynamic interactions suitable for testing.
 
 The interactive elements I created were:
->> A dropdown for response selection.
->> A form that users can fill out.
->> An interactive widget that users can manipulate.
+*  A dropdown for response selection.
+*  A form that users can fill out.
+*  An interactive widget that users can manipulate.
 
 See here for the dummy page: [AutomatedTestingDummyShell](./AutomatedTestingExp.html).
 
@@ -43,6 +43,8 @@ Continuing to expand the test cases and exploring additional Selenium features w
 
 
 
+
+[back](./)
 
 
 
