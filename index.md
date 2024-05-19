@@ -35,8 +35,8 @@ Projects that focus on automating repetitive tasks and streamlining processes th
 
 *   AWS Certified Cloud Practitioner 
 *   Microsoft Certified: AZ-900 Azure Fundamentals
-*   Google Cloud digital Leader Certification [Pending 5/2/2/2024 Exam]
-*   Deloitte Information Technology Analyst 08.01.2022 - Present
+*   Google Cloud digital Leader Certification
+*   Deloitte Information Technology Consultant 08.01.2022 - Present
 
 ##### Future Projects 
 
