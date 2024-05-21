@@ -12,28 +12,30 @@ As I embarked on the VPN Server project, my goal was to build upon my foundation
 
 I created an account on OpenVPN and utilized CloudConnexa to host my own VPN in the cloud. This involved configuring my personal laptop to connect to the VPN via a direct integration connection to the cloud-hosted CloudConnexa service.
 
-<a href="https://lh3.googleusercontent.com/drive-viewer/AKGpihbgBSpd1mFTmCU-K-TvBR-gGZI1GAuQadMI0Jo_dvXEgrpVljdi5s_XN8MoxrMXlmMJBD_K3f_R_dizkTlgEpb7jeSGfgoa8Q=s2560?source=screenshot.guru"> <img src="https://lh3.googleusercontent.com/drive-viewer/AKGpihbgBSpd1mFTmCU-K-TvBR-gGZI1GAuQadMI0Jo_dvXEgrpVljdi5s_XN8MoxrMXlmMJBD_K3f_R_dizkTlgEpb7jeSGfgoa8Q=s2560" /> </a>
+<a href="https://lh3.googleusercontent.com/drive-viewer/AKGpihZJwuE7surycaK4rlaHrXotiGaCMNkwPrbx-begYkabiYhrSbnCVhyXJGTS3AG8K5ALQM4hasd86gVo5EF-8Sc5r19QayJjuQ=s2560?source=screenshot.guru"> <img src="https://lh3.googleusercontent.com/drive-viewer/AKGpihZJwuE7surycaK4rlaHrXotiGaCMNkwPrbx-begYkabiYhrSbnCVhyXJGTS3AG8K5ALQM4hasd86gVo5EF-8Sc5r19QayJjuQ=s2560" /> </a>
+
 
 
 **2. Firewall Configuration with DNS Protection**
 
 I implemented firewall configurations through DNS to protect against various threats such as malware, adware, ransomware, phishing, scamming, and cryptojacking. Additionally, I customized the list by directly adding URLs for allowing/blocking categories, including banning timewasters like Facebook, Instagram, and others.
 
-<a href="https://lh3.googleusercontent.com/drive-viewer/AKGpiha2lKotjOAsR7l9wmzyW0XhE1WqVjtaO7KU_NGFx0xAElftrqNrq_tptAGyHvuVNyxyRhK1nCVhFAal8aws3rlgQmIzk4_ZE-g=s1600-rw-v1?source=screenshot.guru"> <img src="https://lh3.googleusercontent.com/drive-viewer/AKGpiha2lKotjOAsR7l9wmzyW0XhE1WqVjtaO7KU_NGFx0xAElftrqNrq_tptAGyHvuVNyxyRhK1nCVhFAal8aws3rlgQmIzk4_ZE-g=s1600-rw-v1" /> </a>
+<a href="https://lh3.googleusercontent.com/drive-viewer/AKGpihavfwD0_mjhuZ7zuRx-lTyQGm1pgEP7ThnqOW5FM3uThy2cKTKlnAksYhHk5ECoUHEedvxp3NeC_yd83m-ghpsHJDZIyEXrfS0=s1600-rw-v1?source=screenshot.guru"> <img src="https://lh3.googleusercontent.com/drive-viewer/AKGpihavfwD0_mjhuZ7zuRx-lTyQGm1pgEP7ThnqOW5FM3uThy2cKTKlnAksYhHk5ECoUHEedvxp3NeC_yd83m-ghpsHJDZIyEXrfS0=s1600-rw-v1" /> </a>
 
 **3. Added Trusted Devices and Multi-Factor Authentication (MFA)**
 
 I integrated a second device (iPhone) as a trusted device attached to the VPN for access. Furthermore, I implemented multi-factor authentication (MFA) for any devices connecting to the VPN, enhancing security by requiring additional authentication factors
 
-<a href="https://lh3.googleusercontent.com/drive-viewer/AKGpihaEh-CEzm5shAtC6KCFSzstirYwKXW8hc1VM4LtEzafmeAS857_u6NYkXXzYJn7biOUtbsCRcSAvhvvOAKf1xPjuUhnqUW-lA=s1600-rw-v1?source=screenshot.guru"> <img src="https://lh3.googleusercontent.com/drive-viewer/AKGpihaEh-CEzm5shAtC6KCFSzstirYwKXW8hc1VM4LtEzafmeAS857_u6NYkXXzYJn7biOUtbsCRcSAvhvvOAKf1xPjuUhnqUW-lA=s1600-rw-v1" /> </a>
+<a href="https://lh3.googleusercontent.com/drive-viewer/AKGpihYKFO_fXH4XYB6DQ-km2mTwvxQtHm5XUFZhnceeHQI1jHNsabzqb4bzowkPF58omZ6zMwmTu3lXRr8_jIfP_npNBGr1RdDIEQ=s1600-rw-v1?source=screenshot.guru"> <img src="https://lh3.googleusercontent.com/drive-viewer/AKGpihYKFO_fXH4XYB6DQ-km2mTwvxQtHm5XUFZhnceeHQI1jHNsabzqb4bzowkPF58omZ6zMwmTu3lXRr8_jIfP_npNBGr1RdDIEQ=s1600-rw-v1" /> </a>
 
-<a href="https://lh3.googleusercontent.com/drive-viewer/AKGpihZL8WCtcgXhuUYtg7BvpOdx6pGf45A5tjEDuvWjWvHOfCoJV1Yvy9XhJA-2ZmsuJW2y5O7ySH5EOYplD_jmGhCDOaBBm3571w=s1600-rw-v1?source=screenshot.guru"> <img src="https://lh3.googleusercontent.com/drive-viewer/AKGpihZL8WCtcgXhuUYtg7BvpOdx6pGf45A5tjEDuvWjWvHOfCoJV1Yvy9XhJA-2ZmsuJW2y5O7ySH5EOYplD_jmGhCDOaBBm3571w=s1600-rw-v1" /> </a>
+<a href="https://lh3.googleusercontent.com/drive-viewer/AKGpihaCicIWkiBskFC7X53KSVmhldMUAJgbzgJZVir4r1mliR_MeW-_42_GyBKcLbzTDkmSkWiQdS4zYQ35pgQrCQvsqibo1iSuwA=s1600-rw-v1?source=screenshot.guru"> <img src="https://lh3.googleusercontent.com/drive-viewer/AKGpihaCicIWkiBskFC7X53KSVmhldMUAJgbzgJZVir4r1mliR_MeW-_42_GyBKcLbzTDkmSkWiQdS4zYQ35pgQrCQvsqibo1iSuwA=s1600-rw-v1" /> </a>
+
 
 **4. Setup AWS S3 Bucket**
 
 Utilizing my personal AWS account, I set up a Secure Scalable Storage (S3) bucket. I implemented security measures such as blocking public access, enabling versioning, and default SSE-S3 encryption to protect stored data. Additionally, I added log streaming (Beta) directly to the AWS S3 bucket, allowing for centralized logging and analysis of VPN activity and security events.
 
-<a href="https://lh3.googleusercontent.com/drive-viewer/AKGpihbuiWYtLDLBTysvw-cNyF184aX7j6Gz855GZ7M9pA6GaZLV6gf_pu6wYyqkaZszp1uaeB2zvfrEjf5qJARyaqw66hh8IQreY0c=s1600-rw-v1?source=screenshot.guru"> <img src="https://lh3.googleusercontent.com/drive-viewer/AKGpihbuiWYtLDLBTysvw-cNyF184aX7j6Gz855GZ7M9pA6GaZLV6gf_pu6wYyqkaZszp1uaeB2zvfrEjf5qJARyaqw66hh8IQreY0c=s1600-rw-v1" /> </a>
+<a href="https://lh3.googleusercontent.com/drive-viewer/AKGpiha9eLL0sER0pr5HhG-hu8uBfuD1SPFM4ptrkWKETITUjBFcRr9IJh5SXLWKQIXXh4HYrjyRNn7NhFJTCrbcutRREkio012_kQ=s1600-rw-v1?source=screenshot.guru"> <img src="https://lh3.googleusercontent.com/drive-viewer/AKGpiha9eLL0sER0pr5HhG-hu8uBfuD1SPFM4ptrkWKETITUjBFcRr9IJh5SXLWKQIXXh4HYrjyRNn7NhFJTCrbcutRREkio012_kQ=s1600-rw-v1" /> </a>
 
 ```JSON
 // JSON Code for CloudConnexa Logging Access
@@ -66,8 +68,8 @@ Utilizing my personal AWS account, I set up a Secure Scalable Storage (S3) bucke
 }
 ```
 
+<a href="https://lh3.googleusercontent.com/drive-viewer/AKGpihb2y6HcJT-tbLc392hj-X-gfrZ7x5BqsRGV9yHnF2k87pHk2Cyj7Xdy5ifdQRdnDYRpMIAmx0EX1Omi0JJQnE1LPMMViBy2KSs=s1600-rw-v1?source=screenshot.guru"> <img src="https://lh3.googleusercontent.com/drive-viewer/AKGpihb2y6HcJT-tbLc392hj-X-gfrZ7x5BqsRGV9yHnF2k87pHk2Cyj7Xdy5ifdQRdnDYRpMIAmx0EX1Omi0JJQnE1LPMMViBy2KSs=s1600-rw-v1" /> </a>
 
-<a href="https://lh3.googleusercontent.com/drive-viewer/AKGpihb0oXbUVER6ZlZ9Y_ORiBBiTr9U7qcXsAo76uL2Qw5Ky4mn-SpL5WB_BfF_CCzXcsbPDdyyH8I7hnXKaIcnPPVPY9J28HAMEw=s1600-rw-v1?source=screenshot.guru"> <img src="https://lh3.googleusercontent.com/drive-viewer/AKGpihb0oXbUVER6ZlZ9Y_ORiBBiTr9U7qcXsAo76uL2Qw5Ky4mn-SpL5WB_BfF_CCzXcsbPDdyyH8I7hnXKaIcnPPVPY9J28HAMEw=s1600-rw-v1" /> </a>
 
 
 **Conclusion**
