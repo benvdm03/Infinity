@@ -27,18 +27,14 @@ document.addEventListener('DOMContentLoaded', () => {
     drawBoard();
 
     canvas.addEventListener('mousemove', (event) => {
-        if (gameOver) return;
+        if (gameOver || turn === 1) return;
         const posx = event.offsetX;
         context.clearRect(0, 0, width, SQUARESIZE);
-        if (turn === 0) {
-            drawCircle(posx, SQUARESIZE / 2, RADIUS, colors.RED);
-        } else {
-            drawCircle(posx, SQUARESIZE / 2, RADIUS, colors.YELLOW);
-        }
+        drawCircle(posx, SQUARESIZE / 2, RADIUS, colors.RED);
     });
 
     canvas.addEventListener('click', (event) => {
-        if (gameOver) return;
+        if (gameOver || turn === 1) return;
         const posx = event.offsetX;
         const col = Math.floor(posx / SQUARESIZE);
 
@@ -54,33 +50,36 @@ document.addEventListener('DOMContentLoaded', () => {
             }
 
             turn = (turn + 1) % 2;
-
-            setTimeout(() => {
-                if (turn === 1 && !gameOver) {
-                    const [col, minimax_score] = minimax(board, 4, -Infinity, Infinity, true);
-                    if (isValidLocation(col)) {
-                        dropPieceAnimation(col, 2);
-                        if (winningMove(2)) {
-                            player2_wins += 1;
-                            gameOver = true;
-                            alert("Player 2 wins!");
-                            updateScores();
-                            replayButton.style.display = 'block';
-                            return;
-                        }
-
-                        turn = (turn + 1) % 2;
-
-                        if (isTerminalNode()) {
-                            alert("The game is a draw!");
-                            gameOver = true;
-                            replayButton.style.display = 'block';
-                        }
-                    }
-                }
-            }, 1000);
+            aiMove();
         }
     });
+
+    function aiMove() {
+        setTimeout(() => {
+            if (turn === 1 && !gameOver) {
+                const [col, minimax_score] = minimax(board, 4, -Infinity, Infinity, true);
+                if (isValidLocation(col)) {
+                    dropPieceAnimation(col, 2);
+                    if (winningMove(2)) {
+                        player2_wins += 1;
+                        gameOver = true;
+                        alert("Player 2 wins!");
+                        updateScores();
+                        replayButton.style.display = 'block';
+                        return;
+                    }
+
+                    turn = (turn + 1) % 2;
+
+                    if (isTerminalNode()) {
+                        alert("The game is a draw!");
+                        gameOver = true;
+                        replayButton.style.display = 'block';
+                    }
+                }
+            }
+        }, 1000);
+    }
 
     function drawBoard() {
         context.fillStyle = colors.BLUE;
