@@ -55,8 +55,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
             turn = (turn + 1) % 2;
 
-            if (!gameOver) {
-                setTimeout(() => {
+            setTimeout(() => {
+                if (turn === 1 && !gameOver) {
                     const [col, minimax_score] = minimax(board, 4, -Infinity, Infinity, true);
                     if (isValidLocation(col)) {
                         dropPieceAnimation(col, 2);
@@ -77,8 +77,8 @@ document.addEventListener('DOMContentLoaded', () => {
                             replayButton.style.display = 'block';
                         }
                     }
-                }, 1000);
-            }
+                }
+            }, 1000);
         }
     });
 
