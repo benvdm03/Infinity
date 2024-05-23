@@ -225,7 +225,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
         for (let r = 0; r < ROW_COUNT - 3; r++) {
-            for (let c = 0; r < COLUMN_COUNT - 3; c++) {
+            for (let c = 0; c < COLUMN_COUNT - 3; c++) {
                 const window = [board[r + 3][c], board[r + 2][c + 1], board[r + 1][c + 2], board[r][c + 3]];
                 score += evaluateWindow(window, piece);
             }
