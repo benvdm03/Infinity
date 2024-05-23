@@ -48,6 +48,9 @@ document.addEventListener('DOMContentLoaded', () => {
                 player1_wins += 1;
                 gameOver = true;
                 alert("Player 1 wins!");
+                updateScores();
+                replayButton.style.display = 'block';
+                return;
             }
 
             turn = (turn + 1) % 2;
@@ -61,6 +64,9 @@ document.addEventListener('DOMContentLoaded', () => {
                             player2_wins += 1;
                             gameOver = true;
                             alert("Player 2 wins!");
+                            updateScores();
+                            replayButton.style.display = 'block';
+                            return;
                         }
 
                         turn = (turn + 1) % 2;
@@ -68,10 +74,6 @@ document.addEventListener('DOMContentLoaded', () => {
                         if (isTerminalNode()) {
                             alert("The game is a draw!");
                             gameOver = true;
-                        }
-
-                        if (gameOver) {
-                            updateScores();
                             replayButton.style.display = 'block';
                         }
                     }
