@@ -64,16 +64,16 @@ document.addEventListener('DOMContentLoaded', () => {
                         }
 
                         turn = (turn + 1) % 2;
-                    }
 
-                    if (isTerminalNode()) {
-                        alert("The game is a draw!");
-                        gameOver = true;
-                    }
+                        if (isTerminalNode()) {
+                            alert("The game is a draw!");
+                            gameOver = true;
+                        }
 
-                    if (gameOver) {
-                        updateScores();
-                        replayButton.style.display = 'block';
+                        if (gameOver) {
+                            updateScores();
+                            replayButton.style.display = 'block';
+                        }
                     }
                 }, 1000);
             }
