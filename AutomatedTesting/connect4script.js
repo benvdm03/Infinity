@@ -50,35 +50,33 @@ document.addEventListener('DOMContentLoaded', () => {
             }
 
             turn = (turn + 1) % 2;
-            aiMove();
+            setTimeout(aiMove, 1000); // Call AI move after 1 second delay
         }
     });
 
     function aiMove() {
-        setTimeout(() => {
-            if (turn === 1 && !gameOver) {
-                const [col, minimax_score] = minimax(board, 4, -Infinity, Infinity, true);
-                if (isValidLocation(col)) {
-                    dropPieceAnimation(col, 2);
-                    if (winningMove(2)) {
-                        player2_wins += 1;
-                        gameOver = true;
-                        alert("Player 2 wins!");
-                        updateScores();
-                        replayButton.style.display = 'block';
-                        return;
-                    }
+        if (turn === 1 && !gameOver) {
+            const [col] = minimax(board, 4, -Infinity, Infinity, true);
+            if (isValidLocation(col)) {
+                dropPieceAnimation(col, 2);
+                if (winningMove(2)) {
+                    player2_wins += 1;
+                    gameOver = true;
+                    alert("Player 2 wins!");
+                    updateScores();
+                    replayButton.style.display = 'block';
+                    return;
+                }
 
-                    turn = (turn + 1) % 2;
+                turn = (turn + 1) % 2;
 
-                    if (isTerminalNode()) {
-                        alert("The game is a draw!");
-                        gameOver = true;
-                        replayButton.style.display = 'block';
-                    }
+                if (isTerminalNode()) {
+                    alert("The game is a draw!");
+                    gameOver = true;
+                    replayButton.style.display = 'block';
                 }
             }
-        }, 1000);
+        }
     }
 
     function drawBoard() {
@@ -115,6 +113,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 return r;
             }
         }
+        return -1; // If no open row is found
     }
 
     function dropPiece(row, col, piece) {
@@ -123,6 +122,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function dropPieceAnimation(col, piece) {
         const row = getNextOpenRow(col);
+        if (row === -1) return; // No valid row to drop the piece
+
         const x = col * SQUARESIZE + SQUARESIZE / 2;
         let y = SQUARESIZE / 2;
         let velocity = 1;
@@ -160,6 +161,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function winningMove(piece) {
+        // Check horizontal locations for win
         for (let c = 0; c < COLUMN_COUNT - 3; c++) {
             for (let r = 0; r < ROW_COUNT; r++) {
                 if (board[r][c] === piece && board[r][c + 1] === piece && board[r][c + 2] === piece && board[r][c + 3] === piece) {
@@ -168,6 +170,7 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         }
 
+        // Check vertical locations for win
         for (let c = 0; c < COLUMN_COUNT; c++) {
             for (let r = 0; r < ROW_COUNT - 3; r++) {
                 if (board[r][c] === piece && board[r + 1][c] === piece && board[r + 2][c] === piece && board[r + 3][c] === piece) {
@@ -176,6 +179,7 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         }
 
+        // Check positively sloped diagonals
         for (let c = 0; c < COLUMN_COUNT - 3; c++) {
             for (let r = 0; r < ROW_COUNT - 3; r++) {
                 if (board[r][c] === piece && board[r + 1][c + 1] === piece && board[r + 2][c + 2] === piece && board[r + 3][c + 3] === piece) {
@@ -184,6 +188,7 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         }
 
+        // Check negatively sloped diagonals
         for (let c = 0; c < COLUMN_COUNT - 3; c++) {
             for (let r = 3; r < ROW_COUNT; r++) {
                 if (board[r][c] === piece && board[r - 1][c + 1] === piece && board[r - 2][c + 2] === piece && board[r - 3][c + 3] === piece) {
