@@ -2,7 +2,7 @@ from flask import Flask, request, jsonify, render_template
 import numpy as np
 import random
 
-app = Flask(__name__)
+app = Flask(__name__, template_folder='templates')
 
 ROW_COUNT = 6
 COLUMN_COUNT = 7
@@ -22,7 +22,6 @@ def drop_piece(board, row, col, piece):
     board[row][col] = piece
 
 def winning_move(board, piece):
-    # Check all win conditions
     for c in range(COLUMN_COUNT - 3):
         for r in range(ROW_COUNT):
             if board[r][c] == piece and board[r][c+1] == piece and board[r][c+2] == piece and board[r][c+3] == piece:
@@ -43,7 +42,6 @@ def winning_move(board, piece):
 
 def score_position(board, piece):
     score = 0
-    # Implement scoring logic
     return score
 
 def get_valid_locations(board):
@@ -102,7 +100,7 @@ def minimax(board, depth, alpha, beta, maximizingPlayer):
 
 @app.route('/')
 def index():
-    return render_template('index.html')
+    return render_template('Connect4.html')
 
 @app.route('/evaluate_move', methods=['POST'])
 def evaluate_move():
