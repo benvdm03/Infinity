@@ -139,25 +139,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 clearInterval(drop);
                 dropPiece(row, col, piece);
                 drawBoard();
-                bounceEffect(x, y, piece);
             }
         }, 10);
-    }
-
-    function bounceEffect(x, y, piece) {
-        let bounce = 10;
-        const bounceAnim = setInterval(() => {
-            if (bounce > 0) {
-                y -= bounce;
-                bounce -= 2;
-                context.clearRect(0, SQUARESIZE, width, height);
-                drawBoard();
-                drawCircle(x, y, RADIUS, piece === 1 ? colors.RED : colors.YELLOW);
-            } else {
-                clearInterval(bounceAnim);
-                drawBoard();
-            }
-        }, 30);
     }
 
     function winningMove(piece) {
