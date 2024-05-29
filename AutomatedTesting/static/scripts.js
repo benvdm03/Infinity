@@ -73,74 +73,67 @@ document.addEventListener('DOMContentLoaded', (event) => {
             if (xhr.readyState === 4 && xhr.status === 200) {
                 const response = JSON.parse(xhr.responseText);
                 const aiCol = response.move;
-                let aiRow = -1;
-                for (let r = 5; r >= 0; r--) {
-                    if (board[r][aiCol] === 0) {
-                        aiRow = r;
-                        break;
-                    }
-                }
-                if (aiRow !== -1) {
-                    board[aiRow][aiCol] = 2;
-                    if (checkWin(2)) {
-                        gameOver = true;
-                    }
+                const aiRow = getNextOpenRow(aiCol);
+
+                board[aiRow][aiCol] = 2;
+                drawBoard();
+
+                if (checkWin(2)) {
+                    gameOver = true;
                     drawBoard();
+                    return;
                 }
+
                 turn = 0;
             }
         };
         xhr.send(JSON.stringify({ board }));
+    }
 
+    function getNextOpenRow(col) {
+        for (let r = 5; r >= 0; r--) {
+            if (board[r][col] === 0) {
+                return r;
+            }
+        }
+        return -1;
     }
 
     function checkWin(player) {
-        const directions = [
-            { x: 0, y: 1 },  // vertical
-            { x: 1, y: 0 },  // horizontal
-            { x: 1, y: 1 },  // diagonal down-right
-            { x: 1, y: -1 }  // diagonal up-right
-        ];
-
         for (let r = 0; r < 6; r++) {
-            for (let c = 0; c < 7; c++) {
-                if (board[r][c] === player) {
-                    for (let { x, y } of directions) {
-                        let count = 0;
-                        for (let k = 0; k < 4; k++) {
-                            const nr = r + k * y;
-                            const nc = c + k * x;
-                            if (nr < 0 || nr >= 6 || nc < 0 || nc >= 7 || board[nr][nc] !== player) {
-                                break;
-                            }
-                            count++;
-                        }
-                        if (count === 4) return true;
-                    }
+            for (let c = 0; c < 4; c++) {
+                if (board[r][c] === player && board[r][c + 1] === player && board[r][c + 2] === player && board[r][c + 3] === player) {
+                    return true;
                 }
             }
         }
-        return false;
-    }
 
-    document.getElementById('connect4').addEventListener('click', (event) => {
-        const canvas = event.currentTarget;
-        const rect = canvas.getBoundingClientRect();
-        const col = Math.floor((event.clientX - rect.left) / (canvas.width / 7));
-
-        if (gameOver) {
-            const width = canvas.width;
-            const height = canvas.height;
-            const buttonX = (width / 2) - 50;
-            const buttonY = height / 2 - 20;
-            if (event.clientX > buttonX && event.clientX < buttonX + 100 && event.clientY > buttonY && event.clientY < buttonY + 40) {
-                resetGame();
+        for (let c = 0; c < 7; c++) {
+            for (let r = 0; r < 3; r++) {
+                if (board[r][c] === player && board[r + 1][c] === player && board[r + 2][c] === player && board[r + 3][c] === player) {
+                    return true;
+                }
             }
-            return;
         }
 
-        handleMove(col);
-    });
+        for (let r = 0; r < 3; r++) {
+            for (let c = 0; c < 4; c++) {
+                if (board[r][c] === player && board[r + 1][c + 1] === player && board[r + 2][c + 2] === player && board[r + 3][c + 3] === player) {
+                    return true;
+                }
+            }
+        }
+
+        for (let r = 3; r < 6; r++) {
+            for (let c = 0; c < 4; c++) {
+                if (board[r][c] === player && board[r - 1][c + 1] === player && board[r - 2][c + 2] === player && board[r - 3][c + 3] === player) {
+                    return true;
+                }
+            }
+        }
+
+        return false;
+    }
 
     function resetGame() {
         for (let r = 0; r < 6; r++) {
@@ -152,6 +145,18 @@ document.addEventListener('DOMContentLoaded', (event) => {
         gameOver = false;
         drawBoard();
     }
+
+    document.getElementById('connect4').addEventListener('click', (event) => {
+        const rect = event.target.getBoundingClientRect();
+        const x = event.clientX - rect.left;
+        const col = Math.floor(x / (rect.width / 7));
+
+        if (gameOver && x >= rect.width / 2 - 50 && x <= rect.width / 2 + 50) {
+            resetGame();
+        } else if (turn === 0 && !gameOver) {
+            handleMove(col);
+        }
+    });
 
     drawBoard();
 });
