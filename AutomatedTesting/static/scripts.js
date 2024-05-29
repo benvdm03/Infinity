@@ -29,15 +29,40 @@ document.addEventListener('DOMContentLoaded', (event) => {
                 context.closePath();
             }
         }
+
+        if (gameOver) {
+            const buttonX = (width / 2) - 50;
+            const buttonY = height / 2 - 20;
+            context.fillStyle = 'white';
+            context.fillRect(buttonX, buttonY, 100, 40);
+            context.strokeStyle = 'black';
+            context.strokeRect(buttonX, buttonY, 100, 40);
+
+            context.fillStyle = 'black';
+            context.font = '20px Arial';
+            context.fillText('Replay', buttonX + 10, buttonY + 25);
+        }
     }
 
     function handleMove(col) {
         if (gameOver) return;
-        let row = board.findIndex(r => r[col] === 0);
+        let row = -1;
+        for (let r = 5; r >= 0; r--) {
+            if (board[r][col] === 0) {
+                row = r;
+                break;
+            }
+        }
         if (row === -1) return;
 
         board[row][col] = turn + 1;
         drawBoard();
+
+        if (checkWin(turn + 1)) {
+            gameOver = true;
+            drawBoard();
+            return;
+        }
 
         const xhr = new XMLHttpRequest();
         xhr.open('POST', '/evaluate_move', true);
@@ -46,9 +71,20 @@ document.addEventListener('DOMContentLoaded', (event) => {
             if (xhr.readyState === 4 && xhr.status === 200) {
                 const response = JSON.parse(xhr.responseText);
                 const aiCol = response.move;
-                const aiRow = board.findIndex(r => r[aiCol] === 0);
-                board[aiRow][aiCol] = 2;
-                drawBoard();
+                let aiRow = -1;
+                for (let r = 5; r >= 0; r--) {
+                    if (board[r][aiCol] === 0) {
+                        aiRow = r;
+                        break;
+                    }
+                }
+                if (aiRow !== -1) {
+                    board[aiRow][aiCol] = 2;
+                    if (checkWin(2)) {
+                        gameOver = true;
+                    }
+                    drawBoard();
+                }
             }
         };
         xhr.send(JSON.stringify({ board }));
@@ -56,12 +92,64 @@ document.addEventListener('DOMContentLoaded', (event) => {
         turn = 1 - turn;
     }
 
+    function checkWin(player) {
+        const directions = [
+            { x: 0, y: 1 },  // vertical
+            { x: 1, y: 0 },  // horizontal
+            { x: 1, y: 1 },  // diagonal down-right
+            { x: 1, y: -1 }  // diagonal up-right
+        ];
+
+        for (let r = 0; r < 6; r++) {
+            for (let c = 0; c < 7; c++) {
+                if (board[r][c] === player) {
+                    for (let { x, y } of directions) {
+                        let count = 0;
+                        for (let k = 0; k < 4; k++) {
+                            const nr = r + k * y;
+                            const nc = c + k * x;
+                            if (nr < 0 || nr >= 6 || nc < 0 || nc >= 7 || board[nr][nc] !== player) {
+                                break;
+                            }
+                            count++;
+                        }
+                        if (count === 4) return true;
+                    }
+                }
+            }
+        }
+        return false;
+    }
+
     document.getElementById('connect4').addEventListener('click', (event) => {
         const canvas = event.currentTarget;
         const rect = canvas.getBoundingClientRect();
         const col = Math.floor((event.clientX - rect.left) / (canvas.width / 7));
+
+        if (gameOver) {
+            const width = canvas.width;
+            const height = canvas.height;
+            const buttonX = (width / 2) - 50;
+            const buttonY = height / 2 - 20;
+            if (event.clientX > buttonX && event.clientX < buttonX + 100 && event.clientY > buttonY && event.clientY < buttonY + 40) {
+                resetGame();
+            }
+            return;
+        }
+
         handleMove(col);
     });
+
+    function resetGame() {
+        for (let r = 0; r < 6; r++) {
+            for (let c = 0; c < 7; c++) {
+                board[r][c] = 0;
+            }
+        }
+        turn = 0;
+        gameOver = false;
+        drawBoard();
+    }
 
     drawBoard();
 });

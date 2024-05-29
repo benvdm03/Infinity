@@ -5,8 +5,6 @@ import math
 
 app = Flask(__name__)
 
-player1_wins = 0
-player2_wins = 0
 ROW_COUNT = 6
 COLUMN_COUNT = 7
 
@@ -159,10 +157,7 @@ def evaluate_move():
     data = request.get_json()
     board = np.array(data['board'])
     col, minimax_score = minimax(board, 4, -math.inf, math.inf, True)
-    if col is not None:
-        row = get_next_open_row(board, col)
-        drop_piece(board, row, col, 2)
-    return jsonify({'move': col, 'board': board.tolist()})
+    return jsonify({'move': col})
 
 if __name__ == '__main__':
     app.run(debug=True)
