@@ -55,14 +55,16 @@ document.addEventListener('DOMContentLoaded', (event) => {
         }
         if (row === -1) return;
 
-        board[row][col] = turn + 1;
+        board[row][col] = 1;
         drawBoard();
 
-        if (checkWin(turn + 1)) {
+        if (checkWin(1)) {
             gameOver = true;
             drawBoard();
             return;
         }
+
+        turn = 1;
 
         const xhr = new XMLHttpRequest();
         xhr.open('POST', '/evaluate_move', true);
@@ -85,11 +87,11 @@ document.addEventListener('DOMContentLoaded', (event) => {
                     }
                     drawBoard();
                 }
+                turn = 0;
             }
         };
         xhr.send(JSON.stringify({ board }));
 
-        turn = 1 - turn;
     }
 
     function checkWin(player) {
