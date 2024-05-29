@@ -2,37 +2,15 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Connect 4 Game</title>
+    <title>Connect 4</title>
+    <script src="{{ url_for('static', filename='scripts.js') }}"></script>
     <style>
-        #gameBoard {
-            border: 1px solid #000;
-            display: grid;
-            grid-template-columns: repeat(7, 50px);
-            grid-gap: 5px;
-        }
-        .cell {
-            width: 50px;
-            height: 50px;
-            background-color: #00f;
-            border-radius: 50%;
-        }
-        .cell.empty {
-            background-color: #fff;
-        }
-        .cell.player1 {
-            background-color: #f00;
-        }
-        .cell.player2 {
-            background-color: #ff0;
+        canvas {
+            border: 1px solid black;
         }
     </style>
 </head>
 <body>
-    <h1>Connect 4 Game</h1>
-    <div id="gameBoard"></div>
-    <button id="replayButton" style="display: none;">Replay</button>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="{{ url_for('static', filename='scripts.js') }}"></script>
+    <canvas id="connect4" width="700" height="700"></canvas>
 </body>
 </html>
