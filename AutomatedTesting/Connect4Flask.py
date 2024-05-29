@@ -155,7 +155,11 @@ def evaluate_move():
     data = request.get_json()
     board = np.array(data['board'])
     col, minimax_score = minimax(board, 4, -math.inf, math.inf, True)
-    return jsonify({'move': col})
+    if col is not None:
+        row = get_next_open_row(board, col)
+        drop_piece(board, row, col, 2)
+    game_over = winning_move(board, 2) or not get_valid_locations(board)
+    return jsonify({'move': col, 'board': board.tolist(), 'game_over': game_over})
 
 if __name__ == '__main__':
     app.run(debug=True)
