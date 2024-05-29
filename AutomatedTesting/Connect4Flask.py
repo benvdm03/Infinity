@@ -11,8 +11,6 @@ COLUMN_COUNT = 7
 def create_board():
     return np.zeros((ROW_COUNT, COLUMN_COUNT))
 
-board = create_board()
-
 def is_valid_location(board, col):
     return board[ROW_COUNT - 1][col] == 0
 
