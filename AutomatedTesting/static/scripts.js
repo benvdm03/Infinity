@@ -46,13 +46,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
     function handleMove(col) {
         if (gameOver) return;
-        let row = -1;
-        for (let r = 5; r >= 0; r--) {
-            if (board[r][col] === 0) {
-                row = r;
-                break;
-            }
-        }
+        let row = getNextOpenRow(col);
         if (row === -1) return;
 
         board[row][col] = 1;
@@ -65,7 +59,6 @@ document.addEventListener('DOMContentLoaded', (event) => {
         }
 
         turn = 1;
-
         const xhr = new XMLHttpRequest();
         xhr.open('POST', '/evaluate_move', true);
         xhr.setRequestHeader('Content-Type', 'application/json;charset=UTF-8');
