@@ -31,7 +31,7 @@ Projects that focus on automating repetitive tasks and streamlining processes th
 **Project #1:** Automated Testing Framework Implementation 
 [AutomatedTestingFramework](./AutomatedTesting/AutomatedTesting.html).
 
-**Project #2:** MiniMax Artificial Intelligence Connect 4 Game [Connect4](./my-flask-app/templates/Connect4.html).
+**Project #2:** MiniMax Artificial Intelligence Connect 4 Game [Connect4](./Connect4/Connect4.html).
 
 
 #### Relevant Certifications & Experience 
