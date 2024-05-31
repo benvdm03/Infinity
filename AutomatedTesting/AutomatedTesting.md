@@ -29,7 +29,7 @@ I developed Selenium scripts tailored to interact with the dummy website’s ele
 
 
 
-```Python 
+```python 
 // Python Silenium Code snippet with syntax highlighting.
 try:
     select_element = Select(driver.find_element(By.ID, "reason"))
