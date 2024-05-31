@@ -37,7 +37,7 @@ Utilizing my personal AWS account, I set up a Secure Scalable Storage (S3) bucke
 
 <a href="https://lh3.googleusercontent.com/drive-viewer/AKGpiha9eLL0sER0pr5HhG-hu8uBfuD1SPFM4ptrkWKETITUjBFcRr9IJh5SXLWKQIXXh4HYrjyRNn7NhFJTCrbcutRREkio012_kQ=s1600-rw-v1?source=screenshot.guru"> <img src="https://lh3.googleusercontent.com/drive-viewer/AKGpiha9eLL0sER0pr5HhG-hu8uBfuD1SPFM4ptrkWKETITUjBFcRr9IJh5SXLWKQIXXh4HYrjyRNn7NhFJTCrbcutRREkio012_kQ=s1600-rw-v1" /> </a>
 
-```JSON
+```json
 // JSON Code for CloudConnexa Logging Access
 {
     "Version": "2012-10-17",
