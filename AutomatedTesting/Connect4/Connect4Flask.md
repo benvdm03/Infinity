@@ -18,7 +18,7 @@ I managed player turns, allowing two players to alternately drop discs into colu
 
 I defined win conditions, which included checking for four discs in a row horizontally, vertically, or diagonally.
 
-```Python 
+```Py
 // Python Game Logic Snippet with syntax highlighting.
 # Define Board parameters
 ROW_COUNT = 6
