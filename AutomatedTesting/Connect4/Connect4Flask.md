@@ -85,3 +85,5 @@ I implemented the minimax algorithm with alpha-beta pruning, which means to expl
 I made an effort to translate aspects of the script to JavaScript to make the game user-interactive on a web-based platform. However, Pygame does not function in web-based environments, and the game lost significant functionality during the translation. Additionally, hosting the game on third-party services like Render proved cumbersome and did not meet the desired standards. Therefore, I decided to document the entire process and offer the full code for any user to play locally in their environment. This approach ensures that the game retains all its functionality and provides a challenging and enjoyable experience.
 
 The full code is freely available for anyone to use and play with in their local environment, ensuring the integrity and functionality of the original game design.
+
+[back](./)
