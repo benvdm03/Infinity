@@ -60,15 +60,14 @@ except Exception as e:
 
 
 
-<a href="https://lh3.googleusercontent.com/drive-viewer/AKGpihZJ47Ysqi2QNBad1J_hgFRHL90cTTZ8qjbTf16-ziQErQEJ2VEnaF6dHy3CPDPufLR9Weo0jsUE-cwL88JRxkKL3YgbicTCjw=s1600-rw-v1?source=screenshot.guru"> <img src="https://lh3.googleusercontent.com/drive-viewer/AKGpihZJ47Ysqi2QNBad1J_hgFRHL90cTTZ8qjbTf16-ziQErQEJ2VEnaF6dHy3CPDPufLR9Weo0jsUE-cwL88JRxkKL3YgbicTCjw=s1600-rw-v1" /> </a>
+<a href="https://lh3.googleusercontent.com/drive-viewer/AKGpihaADkR-irr9Xd9JMHOONF6fxw3mKD0-q2XfpKzih9ebsEuWagCP7Oy1N3ijkcBMqUVfIZeJb7w3-XhKqxHrO7Kpeq5k07x4TA=s1600-rw-v1?source=screenshot.guru"> <img src="https://lh3.googleusercontent.com/drive-viewer/AKGpihaADkR-irr9Xd9JMHOONF6fxw3mKD0-q2XfpKzih9ebsEuWagCP7Oy1N3ijkcBMqUVfIZeJb7w3-XhKqxHrO7Kpeq5k07x4TA=s1600-rw-v1" /> </a>
+
+
+<a href="https://lh3.googleusercontent.com/drive-viewer/AKGpihbUTWkfX_RI5N77x73MJis7t4KhfSCIMzTcREsk-osczl3ZFW7chRh468DEPgk4NDXB9VrUBXNct8mtxA4PAjZR0lYVdft9TUU=s1600-rw-v1?source=screenshot.guru"> <img src="https://lh3.googleusercontent.com/drive-viewer/AKGpihbUTWkfX_RI5N77x73MJis7t4KhfSCIMzTcREsk-osczl3ZFW7chRh468DEPgk4NDXB9VrUBXNct8mtxA4PAjZR0lYVdft9TUU=s1600-rw-v1" /> </a>
 
 
 
-<a href="https://lh3.googleusercontent.com/drive-viewer/AKGpihYHCXwgircj7w58ng8ffOdSSKsgaYXPAKGNXHLwc5ZD9UinvTr-rbn5DichRIWGPT0lVMrbWLOhd4k9uV9HmN-UjlPKj6sxGVY=s1600-rw-v1?source=screenshot.guru"> <img src="https://lh3.googleusercontent.com/drive-viewer/AKGpihYHCXwgircj7w58ng8ffOdSSKsgaYXPAKGNXHLwc5ZD9UinvTr-rbn5DichRIWGPT0lVMrbWLOhd4k9uV9HmN-UjlPKj6sxGVY=s1600-rw-v1" /> </a>
-
-
-
-<a href="https://lh3.googleusercontent.com/drive-viewer/AKGpihZo8dhC8uJOhx3ew0A4hAPiLl41WoB30RfYI_z0imarEguyCkgfjT-tFLKan8X_-vXWG7zqsy0PP609h4JE3ofAV7A--zvd35s=s1600-rw-v1?source=screenshot.guru"> <img src="https://lh3.googleusercontent.com/drive-viewer/AKGpihZo8dhC8uJOhx3ew0A4hAPiLl41WoB30RfYI_z0imarEguyCkgfjT-tFLKan8X_-vXWG7zqsy0PP609h4JE3ofAV7A--zvd35s=s1600-rw-v1" /> </a>
+<a href="https://lh3.googleusercontent.com/drive-viewer/AKGpihZ49rhI3zhWFUqqtv8bnBh0_gDsZ0yLj-wsprGJufQFjsPOuFHWWOLToWSLz1LneM23r9oxzBgxJkgBTcwv1QYfKn_m5WHBX_c=s1600-rw-v1?source=screenshot.guru"> <img src="https://lh3.googleusercontent.com/drive-viewer/AKGpihZ49rhI3zhWFUqqtv8bnBh0_gDsZ0yLj-wsprGJufQFjsPOuFHWWOLToWSLz1LneM23r9oxzBgxJkgBTcwv1QYfKn_m5WHBX_c=s1600-rw-v1" /> </a>
 
 
 
