@@ -18,6 +18,15 @@ I managed player turns, allowing two players to alternately drop discs into colu
 
 I defined win conditions, which included checking for four discs in a row horizontally, vertically, or diagonally.
 
+```Python 
+// Python Game Logic Snippet with syntax highlighting.
+# Define Board parameters
+ROW_COUNT = 6
+COLUMN_COUNT = 7
+SQUARESIZE = 100
+RADIUS = int(SQUARESIZE / 2 - 5)
+```
+
 
 **2. User Interface**
 
@@ -27,6 +36,31 @@ I ensured the interface allowed users to interact with the game, visualize the g
 
 Using Pygame and VSCode, I created a basic, yet functional game of Connect 4 locally.
 
+```Python 
+// Python PyGame Implementation with syntax highlighting.
+# Create the game window
+screen = pygame.display.set_mode(size)
+pygame.display.set_caption("Connect 4")
+
+# Initialize the game board
+board = np.zeros((ROW_COUNT, COLUMN_COUNT))
+
+def draw_board(board):
+    for c in range(COLUMN_COUNT):
+        for r in range(ROW_COUNT):
+            pygame.draw.rect(screen, BLUE, (c * SQUARESIZE, r * SQUARESIZE + SQUARESIZE, SQUARESIZE, SQUARESIZE))
+            pygame.draw.circle(screen, BLACK, (int(c * SQUARESIZE + SQUARESIZE / 2), int(r * SQUARESIZE + SQUARESIZE + SQUARESIZE / 2)), RADIUS)
+    
+    for c in range(COLUMN_COUNT):
+        for r in range(ROW_COUNT):
+            if board[r][c] == 1:
+                pygame.draw.circle(screen, RED, (int(c * SQUARESIZE + SQUARESIZE / 2), height - int((r + 1) * SQUARESIZE + SQUARESIZE / 2)), RADIUS)
+            elif board[r][c] == 2:
+                pygame.draw.circle(screen, YELLOW, (int(c * SQUARESIZE + SQUARESIZE / 2), height - int((r + 1) * SQUARESIZE + SQUARESIZE / 2)), RADIUS)
+    draw_scores()
+    pygame.display.update()
+
+```
 
 **3. Designing and Implementing the AI Model**
 
