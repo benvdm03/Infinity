@@ -18,7 +18,7 @@ I managed player turns, allowing two players to alternately drop discs into colu
 
 I defined win conditions, which included checking for four discs in a row horizontally, vertically, or diagonally.
 
-```Py
+```python
 // Python Game Logic Snippet with syntax highlighting.
 # Define Board parameters
 ROW_COUNT = 6
@@ -36,7 +36,7 @@ I ensured the interface allowed users to interact with the game, visualize the g
 
 Using Pygame and VSCode, I created a basic, yet functional game of Connect 4 locally.
 
-```Python 
+```python 
 // Python PyGame Implementation with syntax highlighting.
 # Create the game window
 screen = pygame.display.set_mode(size)
