@@ -34,12 +34,25 @@ Projects that focus on automating repetitive tasks and streamlining processes th
 | MiniMax Artificial Intelligence Connect 4 Game    | AI-powered Connect 4 game using MiniMax algorithm| [Connect4](./AutomatedTesting/Connect4/Connect4Flask.html)   |
 
 
-#### Relevant Certifications & Experience 
+#### Relevant Certifications
 
-*   AWS Certified Cloud Practitioner 
+*   AWS Certified Cloud Practitioner
+![AWS](https://img.shields.io/badge/AWS-Cloud-orange)
+
 *   Microsoft Certified: AZ-900 Azure Fundamentals
+![Azure](https://img.shields.io/badge/Azure-Cloud-blue)
+
 *   Google Cloud digital Leader Certification
-*   Deloitte Information Technology Consultant 08.01.2022 - Present
+![Google Cloud](https://img.shields.io/badge/Google_Cloud-Platform-blue)
+
+
+### Skills
+![Python](https://img.shields.io/badge/Python-3.8-blue)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow)
+![Flask](https://img.shields.io/badge/Flask-2.0.1-black)
+![Git](https://img.shields.io/badge/Git-2.31.1-orange)
+
+
 
 ##### Future Projects 
 
