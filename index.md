@@ -5,33 +5,33 @@
 </div>
 
 
-# Data Analyzation and Visualization 
+# Data Analyzation and Visualization 📊
 
 Projects that focus on analyzing datasets to extract valuable insights and trends, visualized through charts, graphs, and interactive dashboards. They showcase proficiency in data manipulation, statistical analysis, and the ability to communicate complex information effectively using visual representations.
 
-**Project #1:** Mexican Tortilla Price Inflation (2007 - 2020)
-[Tortillas](./Tortillas.html).
-
-**Project #2:** How Fast Can a Human Being Run 1500m? 
-[Speed](./Speed.html).
-
-
-# Network Security and Infrastructure 
-
-Projects that focus on ensuring the security and reliability of network infrastructure. They include tasks such as configuring firewalls, implementing encryption protocols, and monitoring network traffic for potential threats. These projects demonstrate expertise in network architecture, cybersecurity protocols, and proactive threat mitigation strategies. (Projects Still Being Inputted)
-
-**Project #1** Establish VPN and MFA Configuration Requirements 
-[OpenVPN](./OpenVPN.html).
+| Project Name                                        | Description                                      | Link                           |
+|-----------------------------------------------------|--------------------------------------------------|--------------------------------|
+| Mexican Tortilla Price Inflation (2007 - 2020)      | Analyzing price trends over time                 | [Tortillas](./Tortillas.html)  |
+| How Fast Can a Human Being Run 1500m?               | Analysis of running speeds                       | [Speed](./Speed.html)          |
 
 
-# Automation and Scripting 
+## Network Security and Infrastructure 🔒
+
+Projects that focus on ensuring the security and reliability of network infrastructure. They include tasks such as configuring firewalls, implementing encryption protocols, and monitoring network traffic for potential threats. These projects demonstrate expertise in network architecture, cybersecurity protocols, and proactive threat mitigation strategies.
+
+| Project Name                                      | Description                                      | Link                        |
+|---------------------------------------------------|--------------------------------------------------|-----------------------------|
+| Establish VPN and MFA Configuration Requirements  | VPN and MFA setup                                | [OpenVPN](./OpenVPN.html)   |
+
+
+## Automation and Scripting 🤖
 
 Projects that focus on automating repetitive tasks and streamlining processes through scripting and automation techniques. They showcase the ability to write scripts in languages like Python or PowerShell to automate system administration tasks, deploy software, or perform data processing operations. These projects demonstrate efficiency, accuracy, and innovation in optimizing workflows through automation. (Projects Still Being Inputted)
 
-**Project #1:** Automated Testing Framework Implementation 
-[AutomatedTestingFramework](./AutomatedTesting/AutomatedTesting.html).
-
-**Project #2:** MiniMax Artificial Intelligence Connect 4 Game [Connect4](./AutomatedTesting/Connect4/Connect4Flask.html).
+| Project Name                                      | Description                                      | Link                                                         |
+|---------------------------------------------------|--------------------------------------------------|--------------------------------------------------------------|
+| Automated Testing Framework Implementation        | Framework for automated testing                  | [AutomatedTestingFramework](./AutomatedTesting/AutomatedTesting.html) |
+| MiniMax Artificial Intelligence Connect 4 Game    | AI-powered Connect 4 game using MiniMax algorithm| [Connect4](./AutomatedTesting/Connect4/Connect4Flask.html)   |
 
 
 #### Relevant Certifications & Experience 
