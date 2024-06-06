@@ -86,4 +86,4 @@ I made an effort to translate aspects of the script to JavaScript to make the ga
 
 The full code is freely available for anyone to use and play with in their local environment, ensuring the integrity and functionality of the original game design.
 
-[back](../../../)
+[back](../../)
