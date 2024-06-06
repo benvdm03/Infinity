@@ -43,7 +43,7 @@ Projects that focus on automating repetitive tasks and streamlining processes th
 ![Azure](https://img.shields.io/badge/Azure-Cloud-blue)
 
 *   Google Cloud digital Leader Certification
-![Google Cloud](https://img.shields.io/badge/Google_Cloud-Platform-blue)
+![Google Cloud](https://img.shields.io/badge/Google_Cloud-Platform-green)
 
 
 ### Skills
