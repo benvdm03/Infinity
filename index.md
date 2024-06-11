@@ -56,8 +56,9 @@ Projects that focus on automating repetitive tasks and streamlining processes th
 
 ##### Future Projects 
 
-1.  Build an AI-powered Connect 4 game using machine learning techniques, allowing it to learn from gameplay data and progressively enhance its strategies, then integrate it for interactive play
-2.  Develop a tool that utilizes threat intelligence APIs such as VirusTotal or IBM X-Force to gather information about known threats and indicators of compromise (IOCs).
+1. **Develop a Network Traffic Analyzer:** Create a tool that captures and analyzes network traffic to identify unusual patterns and potential security threats using real-time monitoring and machine learning techniques.
+2. **Build a Vulnerability Scanner:** Design a tool that scans networks and systems to identify security weaknesses, providing reports and recommendations for mitigation based on identified vulnerabilities.
+3. **Integrate Custom GPT and Open APIs into a Website:** Develop a project that integrates custom GPT models and various Open APIs into an existing website to enhance its functionality and user experience. Use API connections to seamlessly incorporate these features into the site.
 
 * * *
 
