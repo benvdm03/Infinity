@@ -9,15 +9,16 @@ Welcome to the Connect 4 game! This project is a fully functional Connect 4 game
 
 
 ## Prerequisites
-To run the game locally, you need to have Python and Pygame installed on your system.
+To run the game locally, you need to have Py Pygame, and the NumPy library installed on your system.
 
 ### Step 1: Install Python
 Download and install Python from [python.org](https://www.python.org/).
 
-### Step 2: Install Pygame
+### Step 2: Install Pygame and Numpy
 Open your command line interface and run the following command:
 ```sh
 pip install pygame
+pip install Numpy
 
 ```
 ### Step 3: Copy the full Connect 4 Script Directly from my Github Repository
