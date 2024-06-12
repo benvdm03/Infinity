@@ -22,7 +22,7 @@ pip install pygame
 ```
 ### Step 3: Copy the full Connect 4 Script Directly from my Github Repository
 
-Copy the Connect4 Script from [here](https://github.com/benvdm03/Infinity/tree/main/AutomatedTesting) and paste the full script into your local VSCode or equivalent. 
+Copy the Connect4 Script from [here](https://github.com/benvdm03/Infinity/blob/main/AutomatedTesting/Connect4/Connect4.py) and paste the full script into your local VSCode or equivalent. 
 
 ### Step 4: Run the Game and Enjoy!
 
