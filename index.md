@@ -70,7 +70,7 @@ Projects that focus on automating repetitive tasks and streamlining processes th
 
 ## Contact Information and Experience
 
-For a detailed view of my contact information and professional experience, please visit my [Contact Information and Experience](./ContactInfo&Exp.html) page.
+For a detailed view of my contact information and professional experience, please visit my [Contact Information and Experience](./ContactInfo&Exp.md) page.
 
 
             
