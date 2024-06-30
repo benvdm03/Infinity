@@ -64,5 +64,8 @@ Amazon Web Services (Cloud Practitioner), Microsoft Azure (AZ-900), Google Cloud
 - Deloitte Artificial Intelligence Center of Excellence
 - Deloitte Cyber Security Center of Excellence
 
+<script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
+<div class="badge-base LI-profile-badge" data-locale="en_US" data-size="large" data-theme="dark" data-type="VERTICAL" data-vanity="benjamin-van-der-merwe-a2a55b16b" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://www.linkedin.com/in/benjamin-van-der-merwe-a2a55b16b?trk=profile-badge">Benjamin van der Merwe</a></div>
 
-<a href="https://lh3.googleusercontent.com/drive-viewer/AKGpihbgpgCQhTVhmEPGd9TqQYmtwNy0UXdNGejPs4rFgzP8-7qAPP-8t8H6lnagG_Z-KXOpiO27c05O_96iGp1_GlsU4D2MJfw2hkk=s1600-rw-v1?source=screenshot.guru"> <img src="https://lh3.googleusercontent.com/drive-viewer/AKGpihbgpgCQhTVhmEPGd9TqQYmtwNy0UXdNGejPs4rFgzP8-7qAPP-8t8H6lnagG_Z-KXOpiO27c05O_96iGp1_GlsU4D2MJfw2hkk=s1600-rw-v1" /> </a>
+              
+[back](./)
