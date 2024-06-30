@@ -1,5 +1,7 @@
 # Contact Information
 
+<a href="https://lh3.googleusercontent.com/drive-viewer/AKGpihbHBLw6aMFZ0XtfE-3KUMnzyNUBZv0kv7CDegvVFvCwyxJQcqMnUQKaKdeto8dQhlUK3P6eXbv9Td_REwZl933ngrc1uU88=s1600-rw-v1?source=screenshot.guru"> <img src="https://lh3.googleusercontent.com/drive-viewer/AKGpihbHBLw6aMFZ0XtfE-3KUMnzyNUBZv0kv7CDegvVFvCwyxJQcqMnUQKaKdeto8dQhlUK3P6eXbv9Td_REwZl933ngrc1uU88=s1600-rw-v1" /> </a>
+
 ## Education
 **Dual Bachelor of Science, Statistics (Operations) and Finance**  
 Minor in Spanish literature, linguistics and culture  
@@ -12,6 +14,8 @@ Dean’s List: Fall 2018, Spring 2019, Fall 2019, Spring 2020, Fall 2021, Spring
 - Analytics Consulting
 - Banking & Financial Institutions
 - Spanish for Business
+
+<a href="https://lh3.googleusercontent.com/drive-viewer/AKGpihai01pqhlwNRsTWxlXI7874aIU7OowiS1-so0OGvtZxG6X3w5VhgRaC5TFXnml4pVy5OlK6qcpLwf-DKJsSFfYjNaZeI-eI-2E=s1600-rw-v1?source=screenshot.guru"> <img src="https://lh3.googleusercontent.com/drive-viewer/AKGpihai01pqhlwNRsTWxlXI7874aIU7OowiS1-so0OGvtZxG6X3w5VhgRaC5TFXnml4pVy5OlK6qcpLwf-DKJsSFfYjNaZeI-eI-2E=s1600-rw-v1" /> </a>
 
 ## Work Experience
 **Information Technology Consultant**  
@@ -53,7 +57,12 @@ Professional Working Knowledge of SQL, JSON, YAML, Python, & R
 **Cloud Solutions:**  
 Amazon Web Services (Cloud Practitioner), Microsoft Azure (AZ-900), Google Cloud Platform
 
+<a href="https://lh3.googleusercontent.com/drive-viewer/AKGpihZLwgDFDHzqMxS4e5TqgyXFBIZUYX7reiEEnT9EAdgJRS6JQXrICTYNJMnPjERkE1CHdIrJTFyiv1uwtPYZ3HzqrZc9Tn3WwCE=s1600-rw-v1?source=screenshot.guru"> <img src="https://lh3.googleusercontent.com/drive-viewer/AKGpihZLwgDFDHzqMxS4e5TqgyXFBIZUYX7reiEEnT9EAdgJRS6JQXrICTYNJMnPjERkE1CHdIrJTFyiv1uwtPYZ3HzqrZc9Tn3WwCE=s1600-rw-v1" /> </a>
+
 ## Affiliations
 - Deloitte Cloud Center of Excellence
 - Deloitte Artificial Intelligence Center of Excellence
 - Deloitte Cyber Security Center of Excellence
+
+
+<a href="https://lh3.googleusercontent.com/drive-viewer/AKGpihbgpgCQhTVhmEPGd9TqQYmtwNy0UXdNGejPs4rFgzP8-7qAPP-8t8H6lnagG_Z-KXOpiO27c05O_96iGp1_GlsU4D2MJfw2hkk=s1600-rw-v1?source=screenshot.guru"> <img src="https://lh3.googleusercontent.com/drive-viewer/AKGpihbgpgCQhTVhmEPGd9TqQYmtwNy0UXdNGejPs4rFgzP8-7qAPP-8t8H6lnagG_Z-KXOpiO27c05O_96iGp1_GlsU4D2MJfw2hkk=s1600-rw-v1" /> </a>
