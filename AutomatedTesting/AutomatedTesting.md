@@ -59,16 +59,12 @@ except Exception as e:
  After running the tests, I verified that the Selenium scripts successfully interacted with the web elements as intended. The outcome was documented to provide insights into the functionality and accuracy of the test cases.
 
 
+<a href="https://lh3.googleusercontent.com/drive-viewer/AKGpihYkNXyVr0w2PwbpHufo6MBfsBlvHBjS4-aIIqdef_hRleuqVE56k3UU54Iu4_kRKLt3S-jGgcpIuFIFZrp57rcX46UaDBEkSw=s1600-rw-v1?source=screenshot.guru"> <img src="https://lh3.googleusercontent.com/drive-viewer/AKGpihYkNXyVr0w2PwbpHufo6MBfsBlvHBjS4-aIIqdef_hRleuqVE56k3UU54Iu4_kRKLt3S-jGgcpIuFIFZrp57rcX46UaDBEkSw=s1600-rw-v1" /> </a>
 
-<a href="https://lh3.googleusercontent.com/drive-viewer/AKGpihaADkR-irr9Xd9JMHOONF6fxw3mKD0-q2XfpKzih9ebsEuWagCP7Oy1N3ijkcBMqUVfIZeJb7w3-XhKqxHrO7Kpeq5k07x4TA=s1600-rw-v1?source=screenshot.guru"> <img src="https://lh3.googleusercontent.com/drive-viewer/AKGpihaADkR-irr9Xd9JMHOONF6fxw3mKD0-q2XfpKzih9ebsEuWagCP7Oy1N3ijkcBMqUVfIZeJb7w3-XhKqxHrO7Kpeq5k07x4TA=s1600-rw-v1" /> </a>
-
-
-<a href="https://lh3.googleusercontent.com/drive-viewer/AKGpihbUTWkfX_RI5N77x73MJis7t4KhfSCIMzTcREsk-osczl3ZFW7chRh468DEPgk4NDXB9VrUBXNct8mtxA4PAjZR0lYVdft9TUU=s1600-rw-v1?source=screenshot.guru"> <img src="https://lh3.googleusercontent.com/drive-viewer/AKGpihbUTWkfX_RI5N77x73MJis7t4KhfSCIMzTcREsk-osczl3ZFW7chRh468DEPgk4NDXB9VrUBXNct8mtxA4PAjZR0lYVdft9TUU=s1600-rw-v1" /> </a>
+<a href="https://lh3.googleusercontent.com/drive-viewer/AKGpihYuwox_RCWirjIiFsmElcJUeg-P4dNFQl8szbDznyKbliZyP1gGcbYCW0RlrjxiC-1HmSybvzKIs94Uq3RdqS8lLHDvuyBvh9Q=s1600-rw-v1?source=screenshot.guru"> <img src="https://lh3.googleusercontent.com/drive-viewer/AKGpihYuwox_RCWirjIiFsmElcJUeg-P4dNFQl8szbDznyKbliZyP1gGcbYCW0RlrjxiC-1HmSybvzKIs94Uq3RdqS8lLHDvuyBvh9Q=s1600-rw-v1" /> </a>
 
 
-
-<a href="https://lh3.googleusercontent.com/drive-viewer/AKGpihZ49rhI3zhWFUqqtv8bnBh0_gDsZ0yLj-wsprGJufQFjsPOuFHWWOLToWSLz1LneM23r9oxzBgxJkgBTcwv1QYfKn_m5WHBX_c=s1600-rw-v1?source=screenshot.guru"> <img src="https://lh3.googleusercontent.com/drive-viewer/AKGpihZ49rhI3zhWFUqqtv8bnBh0_gDsZ0yLj-wsprGJufQFjsPOuFHWWOLToWSLz1LneM23r9oxzBgxJkgBTcwv1QYfKn_m5WHBX_c=s1600-rw-v1" /> </a>
-
+<a href="https://lh3.googleusercontent.com/drive-viewer/AKGpihZVlzp-5QhdDiJt60QSOjK_eVIn9cxivyakYRnc0BHzGWluKoSLPg-4R8p-g4SRoJU8iIVsb4hmYeIfwdbInWNh3IqNNQQFMmI=s1600-rw-v1?source=screenshot.guru"> <img src="https://lh3.googleusercontent.com/drive-viewer/AKGpihZVlzp-5QhdDiJt60QSOjK_eVIn9cxivyakYRnc0BHzGWluKoSLPg-4R8p-g4SRoJU8iIVsb4hmYeIfwdbInWNh3IqNNQQFMmI=s1600-rw-v1" /> </a>
 
 
 
