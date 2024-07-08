@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-
+ 
 ## Automated Web Testing 
 
 The primary goal of this project is to demonstrate the process and benefits of automating web testing through Selenium WebDriver. By automating interactions with a specially designed dummy website, I aimed to validate its functionality efficiently and to ensure the reliability of its user interactions. This exercise serves as a practical introduction to the setup, execution, and benefits of automated web testing in real-world applications.
