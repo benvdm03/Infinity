@@ -6,16 +6,12 @@ layout: default
 
 As I embarked on the VPN Server project, my goal was to build upon my foundational knowledge in network security by implementing a secure and robust network infrastructure. Through practical application and hands-on experience, I aimed to understand and implement essential networking and security principles, with a focus on VPN protocols, encryption, authentication mechanisms, and access control.
 
-<a href="https://lh3.googleusercontent.com/drive-viewer/AKGpihYpZLxNXi76RJlbBnDhTsUB1MKHzeA-qZEfeFKl9O6QH7AGnlx5W6AGmw-DCaKsCiK-unNcLqxeoLd5T-qwNicsDsw=s2560?source=screenshot.guru"> <img src="https://lh3.googleusercontent.com/drive-viewer/AKGpihYpZLxNXi76RJlbBnDhTsUB1MKHzeA-qZEfeFKl9O6QH7AGnlx5W6AGmw-DCaKsCiK-unNcLqxeoLd5T-qwNicsDsw=s2560" /> </a>
-
-<a href="https://lh3.googleusercontent.com/drive-viewer/AKGpihYTdZmYKESn9jaJ7zKugO5rKCwkRxnu0LQDEXHgT4t3EBFWJPVavh9WtGCFKZY8nKtLtv6P7xplW45PY8yOP_F7LgELHRz24A=s2560?source=screenshot.guru"> <img src="https://lh3.googleusercontent.com/drive-viewer/AKGpihYTdZmYKESn9jaJ7zKugO5rKCwkRxnu0LQDEXHgT4t3EBFWJPVavh9WtGCFKZY8nKtLtv6P7xplW45PY8yOP_F7LgELHRz24A=s2560" /> </a>
 
 **1. Setup Virtual Private Network (VPN) with OpenVPN on CloudConnexa**
 
 I created an account on OpenVPN and utilized CloudConnexa to host my own VPN in the cloud. This involved configuring my personal laptop to connect to the VPN via a direct integration connection to the cloud-hosted CloudConnexa service.
 
-<a href="https://lh3.googleusercontent.com/drive-viewer/AKGpihbF6NALszlMSez2phtiH0F8lkaWl5SlD4JZ7JAcm35l3Nh4ZEnpRB14Ou9gmxRhSLhf22mX92VoDhPZ_gTJ1nYDQHrr_x6h1gs=s2560?source=screenshot.guru"> <img src="https://lh3.googleusercontent.com/drive-viewer/AKGpihbF6NALszlMSez2phtiH0F8lkaWl5SlD4JZ7JAcm35l3Nh4ZEnpRB14Ou9gmxRhSLhf22mX92VoDhPZ_gTJ1nYDQHrr_x6h1gs=s2560" /> </a>
-
+<a href="https://lh3.googleusercontent.com/drive-viewer/AKGpihYTdZmYKESn9jaJ7zKugO5rKCwkRxnu0LQDEXHgT4t3EBFWJPVavh9WtGCFKZY8nKtLtv6P7xplW45PY8yOP_F7LgELHRz24A=s2560?source=screenshot.guru"> <img src="https://lh3.googleusercontent.com/drive-viewer/AKGpihYTdZmYKESn9jaJ7zKugO5rKCwkRxnu0LQDEXHgT4t3EBFWJPVavh9WtGCFKZY8nKtLtv6P7xplW45PY8yOP_F7LgELHRz24A=s2560" /> </a>
 
 **2. Firewall Configuration with DNS Protection**
 
