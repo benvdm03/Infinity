@@ -11,7 +11,7 @@ As I embarked on the VPN Server project, my goal was to build upon my foundation
 
 I created an account on OpenVPN and utilized CloudConnexa to host my own VPN in the cloud. This involved configuring my personal laptop to connect to the VPN via a direct integration connection to the cloud-hosted CloudConnexa service.
 
-<a href="https://drive.google.com/drive-viewer/AKGpihYtI-ups8pjRC550xiDWHUbJOEn-NuVjMHjiDDLZRd5Z2ZFsO4xzp9jKmWDcyybhcFP5Hg8HQAHIdpSgO9p6W6qngnig3A4gA=s2560?source=screenshot.guru"> <img src="https://drive.google.com/drive-viewer/AKGpihYtI-ups8pjRC550xiDWHUbJOEn-NuVjMHjiDDLZRd5Z2ZFsO4xzp9jKmWDcyybhcFP5Hg8HQAHIdpSgO9p6W6qngnig3A4gA=s2560" /> </a>
+<a href="https://drive.google.com/drive-viewer/AKGpihYtI-ups8pjRC550xiDWHUbJOEn-NuVjMHjiDDLZRd5Z2ZFsO4xzp9jKmWDcyybhcFP5Hg8HQAHIdpSgO9p6W6qngnig3A4gA=s2560?source=screenshot.guru"> <img src="https://drive.google.com/drive-viewer/AKGpihYtI-ups8pjRC550xiDWHUbJOEn-NuVjMHjiDDLZRd5Z2ZFsO4xzp9jKmWDcyybhcFP5Hg8HQAHIdpSgO9p6W6qngnig3A4gA=s2560" /> </a> 
 
 **2. Firewall Configuration with DNS Protection**
 
