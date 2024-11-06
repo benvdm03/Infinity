@@ -58,11 +58,11 @@ except Exception as e:
 
  After running the tests, I verified that the Selenium scripts successfully interacted with the web elements as intended. The outcome was documented to provide insights into the functionality and accuracy of the test cases.
 
-![Automated Testing](images/AutomatedTesting.GIF)
+![Automated Testing](../images/AutomatedTesting.GIF)
 
-![Automation Responses](images/Automation Responses.GIF)
+![Automation Responses](../images/Automation Responses.GIF)
 
-![VSC Selenium Script](images/VSC Silenium Script.GIF)
+![VSC Selenium Script](../images/VSC Silenium Script.GIF)
 
 
 
