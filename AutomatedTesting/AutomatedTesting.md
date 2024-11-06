@@ -58,14 +58,11 @@ except Exception as e:
 
  After running the tests, I verified that the Selenium scripts successfully interacted with the web elements as intended. The outcome was documented to provide insights into the functionality and accuracy of the test cases.
 
+![Automated Testing](../images/AutomatedTesting.GIF)
 
-<a href="https://lh3.googleusercontent.com/drive-viewer/AKGpihYkNXyVr0w2PwbpHufo6MBfsBlvHBjS4-aIIqdef_hRleuqVE56k3UU54Iu4_kRKLt3S-jGgcpIuFIFZrp57rcX46UaDBEkSw=s1600-rw-v1?source=screenshot.guru"> <img src="https://lh3.googleusercontent.com/drive-viewer/AKGpihYkNXyVr0w2PwbpHufo6MBfsBlvHBjS4-aIIqdef_hRleuqVE56k3UU54Iu4_kRKLt3S-jGgcpIuFIFZrp57rcX46UaDBEkSw=s1600-rw-v1" /> </a>
+![Automation Responses](../images/Automation Responses.GIF)
 
-<a href="https://lh3.googleusercontent.com/drive-viewer/AKGpihYuwox_RCWirjIiFsmElcJUeg-P4dNFQl8szbDznyKbliZyP1gGcbYCW0RlrjxiC-1HmSybvzKIs94Uq3RdqS8lLHDvuyBvh9Q=s1600-rw-v1?source=screenshot.guru"> <img src="https://lh3.googleusercontent.com/drive-viewer/AKGpihYuwox_RCWirjIiFsmElcJUeg-P4dNFQl8szbDznyKbliZyP1gGcbYCW0RlrjxiC-1HmSybvzKIs94Uq3RdqS8lLHDvuyBvh9Q=s1600-rw-v1" /> </a>
-
-
-<a href="https://lh3.googleusercontent.com/drive-viewer/AKGpihZVlzp-5QhdDiJt60QSOjK_eVIn9cxivyakYRnc0BHzGWluKoSLPg-4R8p-g4SRoJU8iIVsb4hmYeIfwdbInWNh3IqNNQQFMmI=s1600-rw-v1?source=screenshot.guru"> <img src="https://lh3.googleusercontent.com/drive-viewer/AKGpihZVlzp-5QhdDiJt60QSOjK_eVIn9cxivyakYRnc0BHzGWluKoSLPg-4R8p-g4SRoJU8iIVsb4hmYeIfwdbInWNh3IqNNQQFMmI=s1600-rw-v1" /> </a>
-
+![VSC Selenium Script](../images/VSC Silenium Script.GIF)
 
 
 **Conclusions**
