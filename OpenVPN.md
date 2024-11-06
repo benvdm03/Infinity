@@ -11,29 +11,29 @@ As I embarked on the VPN Server project, my goal was to build upon my foundation
 
 I created an account on OpenVPN and utilized CloudConnexa to host my own VPN in the cloud. This involved configuring my personal laptop to connect to the VPN via a direct integration connection to the cloud-hosted CloudConnexa service.
 
-![Cloud Connexa 1.5](../images/CloudConnexa1.5.GIF)
+![Cloud Connexa 1.5](images/CloudConnexa1.5.GIF)
 
 
 **2. Firewall Configuration with DNS Protection**
 
 I implemented firewall configurations through DNS to protect against various threats such as malware, adware, ransomware, phishing, scamming, and cryptojacking. Additionally, I customized the list by directly adding URLs for allowing/blocking categories, including banning timewasters like Facebook, Instagram, and others.
 
-![Cloud Connexa 3](../images/CloudConnexa3.GIF)
+![Cloud Connexa 3](images/CloudConnexa3.GIF)
 
 **3. Added Trusted Devices and Multi-Factor Authentication (MFA)**
 
 I integrated a second device (iPhone) as a trusted device attached to the VPN for access. Furthermore, I implemented multi-factor authentication (MFA) for any devices connecting to the VPN, enhancing security by requiring additional authentication factors
 
-![Cloud Connexa 4](../images/CloudConnexa4.GIF)
+![Cloud Connexa 4](images/CloudConnexa4.GIF)
 
-![Cloud Connexa 5](../images/CloudConnexa5.GIF)
+![Cloud Connexa 5](images/CloudConnexa5.GIF)
 
 
 **4. Setup AWS S3 Bucket**
 
 Utilizing my personal AWS account, I set up a Secure Scalable Storage (S3) bucket. I implemented security measures such as blocking public access, enabling versioning, and default SSE-S3 encryption to protect stored data. Additionally, I added log streaming (Beta) directly to the AWS S3 bucket, allowing for centralized logging and analysis of VPN activity and security events.
 
-![Cloud Connexa 6.5](../images/CloudConnexa6.5.GIF)
+![Cloud Connexa 6.5](images/CloudConnexa6.5.GIF)
 
 ```json
 // JSON Code for CloudConnexa Logging Access
@@ -66,7 +66,7 @@ Utilizing my personal AWS account, I set up a Secure Scalable Storage (S3) bucke
 }
 ```
 
-![Cloud Connexa 6](../images/CloudConnexa6.GIF)
+![Cloud Connexa 6](images/CloudConnexa6.GIF)
 
 
 
